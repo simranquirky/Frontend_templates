@@ -1,4 +1,4 @@
-# Frontend-Pages
+# Frontend-templates
 
 
 ## Want to Contribute to this repository?
