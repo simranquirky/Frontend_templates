@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.login {
+  height: 100vh;
+  background: #813ffb;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(38%, #813ffb),
+    color-stop(94%, #468dfc)
+  );
+  background: linear-gradient(90deg, #813ffb 38%, #468dfc 94%);
+}
+
+.login__container {
+  max-width: 1080px;
+  padding: 0 20px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+@media (max-width: 750px) {
+  .login__container {
+    max-width: 375px;
+    padding: 0 5px;
+  }
+}
+
+.login .flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+}
+
+.login__heading {
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 4rem;
+  margin-bottom: 2.5rem;
+}
+
+.login__form {
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 2rem;
+  width: 50%;
+}
+
+@media (max-width: 750px) {
+  .login__form {
+    width: 95%;
+  }
+}
+
+.login__form-group {
+  padding: 1rem;
+}
+
+.login__form-group .form-label {
+  color: white;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.login__input {
+  display: block;
+  margin: 0.5rem 0 0 0;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 100%;
+  border-radius: 4px;
+  height: 4.2rem;
+  padding: 1rem 1.3rem;
+}
+
+.login__input:focus,
+.login__input:hover {
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.login__btn {
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 4px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+  padding: 1rem;
+  width: 100%;
+  height: 4.2rem;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-color: rgba(114, 7, 255, 0.8);
+}
+
+.login__btn:hover,
+.login__btn:focus {
+  background-color: #7207ff;
+}
