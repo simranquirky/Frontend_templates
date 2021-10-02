@@ -6,7 +6,7 @@
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Head over to [Contributing Guidelines](https://github.com/simranquirky/simranquirky.github.io/blob/main/CONTRIBUTING.md) to know more!
+Head over to [Contributing Guidelines](https://github.com/simranquirky/Frontend_templates/blob/main/CONTRIBUTING.md) to know more!
 Start contributing to see your profile in the contributors section.
 
 ## Project Admin
@@ -21,7 +21,7 @@ Start contributing to see your profile in the contributors section.
 
 Thanks goes to these **Wonderful People** 👨🏻‍💻:       
 
-<a href="https://github.com/simranquirky/simranquirky.github.io/graphs/contributors">
+<a href="https://github.com/simranquirky/Frontend_templates/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=simranquirky/simranquirky.github.io" />
 </a> 
 
