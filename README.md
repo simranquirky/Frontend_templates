@@ -1,5 +1,14 @@
-# Frontend-templates
+# ✨Frontend-templates
 
+## Types in which you can contribute
+- LOGIN PAGES
+- PORTFOLIO TEMPLATE
+- FOOD BLOG
+- TRAVEL BLOG
+- REGISTRATION FORM
+- DASHBOARD
+- TECHNICAL SITE
+- SHOPPING SITE ,Etc.
 
 ## Want to Contribute to this repository?
 🚀 **Contributions** of any kind is welcome!
@@ -22,6 +31,6 @@ Start contributing to see your profile in the contributors section.
 Thanks goes to these **Wonderful People** 👨🏻‍💻:       
 
 <a href="https://github.com/simranquirky/Frontend_templates/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=simranquirky/simranquirky.github.io" />
+  <img src="https://contrib.rocks/image?repo=simranquirky/Frontend_templates" />
 </a> 
 
