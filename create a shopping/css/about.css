@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+p {
+  margin-bottom: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #1a237e;
+  font-family: "Allura", cursive;
+}
+h1.title {
+  margin-bottom: 20px;
+  color: #ff8b30;
+  font-family: "Allura", cursive;
+  text-transform: uppercase;
+  font-size: 38px;
+  word-spacing: 25px;
+  letter-spacing: 5px;
+}
+
+/* Navigation Bar */
+.navbar {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar_list ul {
+  display: flex;
+}
+.navbar .navbar_list ul li {
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+
+.navbar .navbar_list ul li a {
+  color: #ff8b30;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Allura", cursive;
+}
+.navbar .navbar_list ul li a:hover {
+  color: #1a237e;
+}
+/* Navigation Bar */
+
+/* About */
+
+.about {
+  text-align: center;
+  padding: 5% 10%;
+}
+
+.btn a {
+  width: 140px;
+  height: 40px;
+  line-height: 35px;
+  border: 3px solid #ff8b30;
+  border-radius: 50px;
+  color: white;
+  font-weight: bold;
+  display: block;
+  margin: 25px auto 0;
+  text-align: center;
+  font-family: "Allura", cursive;
+  background-color: #ff8b30;
+}
+
+.btn a:hover {
+  color: #1a237e;
+}
+
+/* About */
+
+@media (max-width: 720px) {
+  .navbar {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .logo {
+    margin-bottom: 25px;
+  }
+
+  .navbar_list ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar_list ul li {
+    margin-bottom: 5px;
+  }
+
+  .welcome-text {
+    margin-top: 35px;
+  }
+}
