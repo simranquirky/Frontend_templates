@@ -9,7 +9,7 @@
 }
 
 :root {
-  --blue: rgb(42, 151, 165);
+  --blue: rgb(62, 178, 194);
 }
 
 body {
@@ -17,7 +17,7 @@ body {
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
   padding: 1rem;
-  background-color: white;
+  background-color: #f7f9fe;
   transition: background-color 200ms ease-in;
 }
 
@@ -88,8 +88,118 @@ h1 {
   color: var(--blue);
 }
 
+/* SECTION ALL TIME STYLES */
+.all-time {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.data-grid {
+  width: 100%;
+  padding-top: 1rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1em;
+}
+
+.data {
+  padding: 1rem 0;
+  background-color: rgba(1, 1, 1, 0.1);
+  /* height: 200px; */
+  border-radius: 8px;
+  transition: background-color 200ms ease-in;
+}
+
+.data-header {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.youtube:hover {
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 0, 0, 0.6),
+    rgba(255, 0, 0, 0.2)
+  );
+}
+
+.facebook:hover {
+  background-image: linear-gradient(
+    to top,
+    rgba(66, 103, 178, 0.6),
+    rgba(66, 103, 178, 0.2)
+  );
+}
+
+.twitter:hover {
+  background-image: linear-gradient(
+    to top,
+    rgba(29, 161, 242, 0.6),
+    rgba(29, 161, 242, 0.2)
+  );
+}
+
+.instagram:hover {
+  background-image: linear-gradient(
+    to top,
+    rgba(138, 58, 185, 0.6),
+    rgba(217, 55, 129, 0.4),
+    rgba(252, 204, 99, 0.4)
+  );
+}
+
+.data-header img {
+  width: 30px;
+}
+
+.data-header p {
+  margin-left: 0.5rem;
+}
+
+.data-count {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.data-count span {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--blue);
+}
+
+.data-count p {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.data-today {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.data-today p {
+  font-weight: 600;
+}
+
+.data-today img {
+  width: 20px;
+  margin-left: 0.5rem;
+}
+
 .body-dark {
   background-color: rgb(30, 25, 36);
+}
+
+.data-bg {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .text-dark {
