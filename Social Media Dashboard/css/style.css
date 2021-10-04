@@ -194,6 +194,69 @@ h1 {
   margin-left: 0.5rem;
 }
 
+/* SECTION TODAY STYLES */
+.today {
+  padding-top: 2rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.data-today-grid {
+  padding-top: 1rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1em;
+}
+
+.today-data {
+  padding: 1rem 0;
+  background-color: rgba(1, 1, 1, 0.1);
+  /* height: 200px; */
+  border-radius: 8px;
+  transition: background-color 200ms ease-in;
+}
+
+.today-data:hover {
+  background-color: rgba(1, 1, 1, 0.2);
+}
+
+.today-data-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.today-data-header p {
+  text-align: left;
+}
+
+.today-data-header img {
+  width: 20px;
+}
+
+.today-data .stats {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.today-data .stats p {
+  display: flex;
+  align-items: flex-end;
+}
+
+.today-data .stats span {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.today-data .stats img {
+  width: 20px;
+}
+
 .body-dark {
   background-color: rgb(30, 25, 36);
 }
@@ -202,6 +265,27 @@ h1 {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+.data-bg-hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
 .text-dark {
   color: rgb(247, 247, 247);
+}
+
+@media (max-width: 1024px) {
+  .data-grid,
+  .data-today-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    padding-top: 4rem;
+  }
+  .data-grid,
+  .data-today-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
