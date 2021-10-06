@@ -1,6 +1,6 @@
 import React from 'react';
 import Grid from '@mui/material/Grid';
-import InstaLoginGif from '../../img/instalogin2.gif'
+import InstaLoginGif from '../../img/instalogin.gif'
 
 function Login (){
 
