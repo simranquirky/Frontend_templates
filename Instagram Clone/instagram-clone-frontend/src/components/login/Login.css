@@ -1,0 +1,78 @@
+.Instalogin-container{
+    display: flex;
+    margin-top: 10px;
+    margin-left: -65px;
+    font-family: sans-serif;
+}
+
+.Instalogin-logo{
+    width: 175px;
+    margin-top: 25px;
+}
+
+.Instalogin-RCompo{
+    width: 350px;
+    padding-bottom: 25px;
+    border: 1px solid #DBDBDB;
+    margin-top: 25px;
+    text-align: center;
+    background-color: white;
+}
+
+.Instalogin-SignIn{
+    margin-top: 25px;
+}
+
+.Instalogin-Text{
+    width:258px;
+    height: 36px;
+    margin:5px;
+    border: 1px solid #DBDBDB;
+    background-color: #FAFAFA;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.Instalogin-SignInButton{
+    width:270px;
+    height: 36px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 5px;
+    border:1px solid #0395F6;
+    background-color: #0395F6;
+    color: white;
+}
+
+.Instalogin-ORdiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.Instalogin-divider{
+    width: 80px;
+    height: 0px;
+    margin-top: 10px;
+    border:1px solid #DBDBDB;
+}
+
+.Instalogin-OR{
+    margin: 0px 10px;
+    font-weight: bold;
+    color: #8E8E8E;
+}
+
+.Instalogin-Fb{
+    color: #395185;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.Instalogin-Forgot{
+    color: rgba(var(--fe0,0,55,107),1);
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 12px;
+    text-align: center;
+}
