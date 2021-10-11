@@ -5,6 +5,14 @@
     font-family: sans-serif;
 }
 
+.Instalogin-SignIn{
+    margin-top: 20px;
+}
+
+.Instalogin-SignUp {
+    margin-top: 20px;
+}
+
 .Instalogin-logo{
     width: 175px;
     margin-top: 25px;
@@ -75,4 +83,32 @@
     line-height: 14px;
     margin-top: 12px;
     text-align: center;
+}
+
+.Instalogin-SignUpSignInOpt {
+    margin-top: 25px;
+    height:56px;
+    width: 350px;
+    background-color: white;
+    border: 1px solid #DBDBDB;
+    text-align: center;
+}
+
+.Instalogin-Store{
+    height: 105px;
+    width: 350px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Instalogin-storeimgContainer{
+    margin-top: 20px;
+}
+
+.Instalogin-storeimg{
+    margin: 5px;
+}
+
+a{
+    text-decoration: none;
 }
