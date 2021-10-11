@@ -277,8 +277,8 @@ border-radius: 8px;
 
 
 .about h1{
-    position: absolute;
-left: 52rem;
+position: absolute;
+left: 45rem;
 top: 16px;
 
 font-family: Roboto;
@@ -291,8 +291,8 @@ color: #000000;
 
 .about p{
 position: absolute;
-width: 941px;
-left: 27rem;
+/* width: 941px; */
+left: 20rem;
 top: 91px;
 
 font-family: Roboto;
