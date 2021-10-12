@@ -22,7 +22,7 @@ function Navbar(){
                         <img className="navbar-instalogo" src={InstaLogo} alt="Instagram" width="105px"/>
                     </Grid>
                     <Grid item xs={3}>
-                        <input type="text" className="navbar-search" placeholder="Search"/>
+                        <input type="text" className="navbar-search" placeholder="&#xf002;  Search" style={{"font-family": "Arial, 'Font Awesome 5 Free'"}} />
                     </Grid>
                     <Grid item xs={3} style={{"display":"flex"}}>
                         <img className="navbar-icon" src={home} alt="" width="25px"/>
