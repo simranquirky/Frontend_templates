@@ -1,0 +1,46 @@
+.W_rec{
+    position: absolute;
+    width: 276px;
+    height: 380px;
+    top: 18rem;
+    background: #00BBC8;
+    border-radius: 16px;
+    /* margin-left: 9%; */
+    padding: 13px;
+    
+}
+
+.W_rec img{
+
+position: absolute;
+width: 263px;
+height: 300px;
+left: 18px;
+/* bottom: 105px; */
+background-color: #000000;
+border-radius: 16px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+
+.W_rec h2{
+font-family: Roboto;
+font-weight: bold;
+font-size: 30px;
+position: relative;
+top: 20rem;
+left: 1rem;
+color: white;
+
+}
+
+.W_rec p{
+font-family: Roboto;
+font-size: 22px;
+position: relative;
+top: 20rem;
+left: 1.5rem;
+color: white;
+
+}
