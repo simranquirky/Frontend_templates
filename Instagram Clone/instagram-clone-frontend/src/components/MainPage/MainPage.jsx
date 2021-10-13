@@ -5,7 +5,7 @@ function MainPage(){
 
     return(
         <div>
-           
+           post
         </div>
     );
 }
