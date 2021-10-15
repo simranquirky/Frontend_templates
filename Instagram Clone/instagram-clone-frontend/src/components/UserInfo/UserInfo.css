@@ -1,0 +1,24 @@
+.userinfo-container{
+    width: 300px;
+    height: 56px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.userinfo-image{
+    min-width: 60px;
+    min-height: 60px;
+}
+
+.userinfo-username{
+    padding-left: 10px;
+    margin: 5px;
+    font-weight: bold;
+    color: #262626;
+}
+
+.userinfo-description{
+    padding-left: 10px;
+    margin: 5px;
+    color: #acacac;
+}

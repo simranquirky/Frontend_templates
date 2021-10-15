@@ -16,11 +16,11 @@
 .storybar-story{
     min-width: 55px;
     min-height: 55px;
-    border: 3px solid #DF3968;
+    
 }
 
 .story{
-    margin: 25px 10px;
+    margin: 20px 10px;
 }
 
 .storybar-text{
@@ -28,4 +28,11 @@
     max-width: 60px;
     overflow-x: hidden;
     text-align: center;
+    margin-top: 5px;
+}
+
+.story-Avatarcontainer{
+    border-radius: 50%;
+    border: 3px solid #DF3968;
+    padding: 1px
 }

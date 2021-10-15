@@ -20,10 +20,14 @@
 .post-username{
     font-weight: bold;
     margin-top: 20px;
+    color: #262626;
+    font-size: 14px;
 }
 
 .post-image{
     width: 615px;
+    max-height:765.75px;
+    object-fit: cover;
 }
 
 .post-reaction{
@@ -34,6 +38,7 @@
 
 .post-comment{
     margin: 10px;
+    color: #262626;
 }
 
 .post-commentbox{
