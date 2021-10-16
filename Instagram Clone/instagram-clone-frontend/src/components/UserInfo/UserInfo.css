@@ -1,8 +1,9 @@
 .userinfo-container{
     width: 300px;
     height: 56px;
-    margin-top: 50px;
+    margin-top: 85px;
     display: flex;
+    position: fixed;
 }
 
 .userinfo-image{

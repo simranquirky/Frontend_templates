@@ -2,6 +2,12 @@
     height: 54px;
     background-color: #fff;
     border-bottom : 1px solid #dbdbdb;
+
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
 }
 
 .navbar-instalogo{

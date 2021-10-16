@@ -4,6 +4,8 @@ import { Avatar } from '@mui/material';
 import Like from '../../img/love.svg';
 import Comment from '../../img/comment.svg';
 import Share from '../../img/share.svg';
+import Save from '../../img/save.png';
+import CmntSmile from '../../img/smile.png';
 
 export default function Post(props) {
 
@@ -49,6 +51,7 @@ export default function Post(props) {
                     <img className="post-reaction" src={Like} alt="Like" />
                     <img className="post-reaction" src={Comment} alt="Comment" />
                     <img className="post-reaction" src={Share} alt="Share" />
+                    <img className="post-reaction" src={Save} style={{"marginLeft":"465px"}} alt="Save" />
                 </diV>
                 <div style={{"fontWeight":"Bold", "marginLeft":"18px", "color":"#262626", "fontSize":"14px"}}>
                     {props.likes} likes
@@ -73,8 +76,12 @@ export default function Post(props) {
             </div>
             <div style={{"marginLeft":"18px", "marginTop":"10px", "marginBottom":"15px", "fontSize":"10px","color":"#8e8e8e"}}>
                 {props.time} AGO
-            </div >
-                <input type="text" className="post-commentbox" placeholder="Add a comment..."/>
+            </div  >
+            <div className="post-commentbox">
+                <img src={CmntSmile} width="25px" style={{"marginTop":"15px", "margin-left":"10px"}} alt="emoji" />
+                <input type="text" className="post-commentbox-text" placeholder="Add a comment..."/>
+            </div>
+                
             </div>
         </div>
     )
