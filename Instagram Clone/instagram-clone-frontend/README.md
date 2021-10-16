@@ -19,6 +19,9 @@ Sign Up page
 ![SignUp](https://drive.google.com/uc?export=view&id=1EaoDz5Ec_qi6sP8ltkRCzZdym09vcpP7)
 Home Page 
 ![HomePage with Story bar](https://drive.google.com/uc?export=view&id=1fCz_bEGRVqL0_kH2eH4x-09ZFOEqFqKA)
+
 ![Story bar moved](https://drive.google.com/uc?export=view&id=1Cy0oqgQfwFLxZFEQKI2_H_AqrPrioN6m)
+
 ![Posts](https://drive.google.com/uc?export=view&id=165vGCw2aGB3JKd2s66vFh2EVPb4ivYnR)
+
 ![Post](https://drive.google.com/uc?export=view&id=1URqPWY-Lr3QHEqbKUOlHNAG9JeK4WrWv)
