@@ -1,7 +1,10 @@
 import React from 'react'
 import './SignUp.css'
+import { useHistory } from 'react-router-dom';
 
 function SignUp() {
+
+    const history = useHistory();
     
     return(
         <>
@@ -9,7 +12,7 @@ function SignUp() {
             <input type="text" className="Instalogin-Text" placeholder="Fullname"/>
             <input type="text" className="Instalogin-Text" placeholder="Username"/>
             <input type="password" className="Instalogin-Text" placeholder="Password"/>
-            <button className="Instalogin-SignInButton">Sign Up</button>
+            <button className="Instalogin-SignInButton" onClick={() => history.push('/home')}>Sign Up</button>
         </>
     );
 }
