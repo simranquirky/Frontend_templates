@@ -1,9 +1,6 @@
 import React from 'react'
 import './Suggestions.css'
 import {Avatar} from '@mui/material'
-import PP2 from '../../img/pp2.png'
-import PP3 from '../../img/pp3.jpeg'
-import PP4 from '../../img/pp4.jpeg'
 
 function Suggestions() {
     return (
