@@ -1,0 +1,38 @@
+.storybar-container{
+    width: 615px;
+    height: 120px;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    margin-top: 85px;
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+.storybar-container::-webkit-scrollbar {
+    display: none;
+}
+
+.storybar-story{
+    min-width: 55px;
+    min-height: 55px;
+    
+}
+
+.story{
+    margin: 20px 10px;
+}
+
+.storybar-text{
+    font-size: 12px;
+    max-width: 60px;
+    overflow-x: hidden;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.story-Avatarcontainer{
+    border-radius: 50%;
+    border: 3px solid #DF3968;
+    padding: 1px
+}
