@@ -1,0 +1,342 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.nav{
+position: absolute;
+width: 100%;
+height: 55px;
+background: #00BBC8;
+}
+
+.btn{
+position: absolute;
+width: 100px;
+height: 32px;
+top: 12px;
+font-family: Roboto;
+font-size: 23px;
+color: #FFFFFF;
+background-color: #00BBC8;
+border: none;
+
+}
+
+
+.btn:hover{
+   background-color: white;
+    cursor: pointer;
+    color: black;
+    border-radius: 8px;
+}
+
+
+
+h1{
+position: absolute;
+left: 25px;
+top: 2px;
+font-size: 40px;
+color: #FFFFFF;
+} 
+
+
+
+.search{
+    position: absolute;
+    width: 195px;
+    height: 29px;
+    right: 250px;
+    top: 12px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    border: none;
+    padding-left: 16px;
+    font-size: 17px;
+    padding-top: 3px;
+    outline: none;
+}
+
+.search:hover{
+    background-color:  #fff4f4;
+}
+
+
+
+
+.cat_img{
+position: absolute;
+width: 80px;
+height: 80px;
+top: 87px;
+/* border: 4px solid #0ca2b3 ; */
+/* border: 2px solid #00BBC8; */
+border: 4px solid #e5ebeb;
+border-radius: 100px;
+
+}
+
+
+.cat_img:hover{
+    width: 100px;
+    height: 100px;
+    border: 4px solid #00BBC8;
+}
+
+
+
+.fav{
+
+position: absolute;
+width: 145px;
+height: 36px;
+right: 55px;
+border: none;
+background: #DEFDFF;
+box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+
+font-family: Roboto;
+font-size: 20px;
+
+}
+
+.fav:hover{
+    background-color: white;
+}
+
+
+
+
+
+
+
+.main{
+position: absolute;
+height: 495px;
+top: 220px;
+width: 100%;
+/* background-color: #00BBC8; */
+background: radial-gradient(111.06% 493.74% at 119.99% 54.18%, #21A8B4 0%, #AEE4EE 100%);
+}
+
+
+
+
+.main img{
+position: absolute;
+/* width: 100%; */
+height: 560px;
+bottom: 0;
+left: 37vw;
+}
+
+/* 
+.recommended{
+  background-color: red;
+  width: 100%;
+  height: 1000px;
+  position: relative;
+  top: 1000px;
+} */
+
+.recommended h1{
+
+position: absolute;
+left: 147px;
+top: 785px;
+font-family: Roboto;
+font-weight: bold;
+font-size: 42px;
+color: #000000;
+
+}
+
+
+
+.rec{
+
+    position: absolute;
+    width: 300px;
+    height: 350px;
+    top: 960px;
+    background: #00BBC8;
+    border-radius: 16px;
+    /* margin-left: 9%; */
+
+}
+
+
+.rec h2{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    top: 16rem;
+    left: 1rem;
+    color: white;
+}
+
+.rec p{
+font-family: Roboto;
+font-size: 22px;
+    position: relative;
+    top: 16rem;
+    left: 1.5rem;
+    color: white;
+
+}
+
+.rec img{
+position: absolute;
+width: 263px;
+height: 300px;
+left: 18px;
+bottom: 105px;
+background-color: #000000;
+border-radius: 25px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* .rec img:hover{
+    width: 303px;
+    height: 340px;
+} */
+.viewBtn{
+
+position: absolute;
+width: 194px;
+height: 49px;
+background: #e2dede63;
+box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+border: none;
+
+font-family: Roboto;
+font-size: 25px;
+color: #000000;
+
+}
+
+.viewBtn:hover{
+    background: #00BBC8;
+}
+
+
+
+.lastOrder h1{
+
+    position: absolute;
+    left: 147px;
+    top: 1530px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 42px;
+    color: #000000;
+    
+    }
+
+
+
+.last{
+position: absolute;
+width: 700px;
+height: 75px;
+left: 136px;
+
+background: #E8F7F9;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 16px;
+padding: 10px;
+}    
+
+.last:hover{
+    width: 750px;
+}
+
+.last img{
+position: absolute;
+width: 110px;
+height: 75px;
+left: 1rem;
+border-radius: 8px;
+}
+
+
+.about{
+    position: absolute;
+    width: 100%;
+    height: 640px;
+    top: 2360px;
+    
+    background: linear-gradient(180deg, #00BBC8 0%, rgba(103, 191, 255, 0) 100%, rgba(0, 187, 200, 0) 100%);
+}
+
+
+.about h1{
+position: absolute;
+left: 45rem;
+top: 16px;
+
+font-family: Roboto;
+font-weight: bold;
+font-size: 42px;
+color: #000000;
+
+}
+
+
+.about p{
+position: absolute;
+/* width: 941px; */
+left: 20rem;
+top: 91px;
+
+font-family: Roboto;
+font-size: 35px;
+
+color: #000000;
+
+    
+}
+
+
+
+.logo h5{
+position: absolute;
+font-family: Roboto;
+font-weight: 500;
+font-size: 103px;
+color: #000000;
+}
+
+.mid p{
+position: absolute;
+font-family: Roboto;
+font-weight: 300;
+font-size: 25px;
+color: #000000;
+}
+
+.contact h1{
+position: absolute;
+font-family: Roboto;
+font-weight: bold;
+font-size: 20px;
+color: #000000;
+
+}
+
+
+.line{
+position: absolute;
+width: 195px;
+bottom: 13rem;
+background-origin: 12rem;
+border: 1px solid rgba(0, 0, 0, 0.24);
+transform: rotate(-90deg);
+background-color: black;
+}
