@@ -5,26 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    style>
+        *{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .container{
+            box-sizing: border-box;
+            background-color: palegoldenrod;
+            margin: 10px;
+            padding: 4px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        #name{
+            width: 50%;
+            background: none;
+            border: black solid 2px;
+            border-radius: 5px;
+        }
+        .btn{
+            background: none;
+            cursor: pointer;
+            width: 100%;
+            font-weight: bold;
+            height: 40px;
+        }
+        .btn:hover{
+            background: lightgreen;
+        }
+    </style>
 </head>
 <body>
     <form>
-        <h1>CONTACT US </h1>
-         <h4>We'd love to hear from you, please drop us a line if you've have a query.</h4>
-         <label for="name">First Name</label><br>
-         <input style ="padding-left: 6px " type ="text" name="name" id=""><br>
-        <br> <label for="email">Email</label><br>
-         <input style ="padding-left: 6px " type ="text" name="email" id=""><br>
-          <br>
-          <label>Employee type: </label>
-          <input type="radio" name="radio"> 
-          <label for="radio">Salaried</label>
-          <input type="radio" name="radio"> 
-          <label for="radio">Own Business</label><br><br>
-         <label>Message</label><br>
-         <input type="text" style="width: 300px;  height: 40px;"><br><br>
-         <button style="background-color: blue;">Submit</button>
-         
-        </form>
+         <div class="container">
+            <h1>CONTACT US </h1>
+             <hr>
+             <h4>We'd love to hear from you, please drop us a line if you've have a query.</h4>
+             <label for="name" style="font-weight: bold;"> Name:</label><br>
+             <input style ="padding-left: 6px " type ="text" name="name" id="name" placeholder="Enter your name" width="50%"><br>
+            <br> <label for="email" style="font-weight: bold;">Email</label><br>
+             <input style ="padding-left: 6px " type ="text" name="email" id="name" placeholder="Enter Your E-mail"><br>
+              <br>
+              <label style="font-weight: bold;">Employee type: </label>
+              <input type="radio" name="radio"> 
+              <label for="radio">Salaried</label>
+              <input type="radio" name="radio"> 
+              <label for="radio">Own Business</label><br><br>
+             <label style="font-weight: bold;">Message</label><br>
+             <input type="text" style="width:50%;  height: 40px;" id="name"><br><br>
+             <br>
+            <br>
+            <br>
+            <hr>
+            <br>
+            <br>
+            <br>
+             <button style="background-color: blue;">Submit</button>
+               <br>
+            <br><br><br>
+        </div>
+    </form>
     
 </body>
 </html>
