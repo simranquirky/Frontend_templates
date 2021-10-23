@@ -1,0 +1,1874 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Single Playlist Screen</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./SinglePlayer-Styles.css">
+	<!-- Add meta tags here -->
+
+</head>
+<body>
+
+<!-- Navigation Bar -->
+
+	<section id="nav"> 
+		<div id="logo" class="nav-item">
+			<a href="HomePage.html">
+				<img src="Profiles+Logo/Logo.jpg" alt="Ninjas Studio Logo" id="logo-image">
+			</a>
+		</div>
+
+		<div id="dropdown-menu" class="nav-item">
+			<div class="bars">
+            	<img src="Icons/bars.png">
+        	</div>
+        	<div id="dropdown">
+        		<a href="">
+        			<p>
+        				Favourites
+        			</p>
+        			<img src="Aside/heart.png" class="dropdown-menu-icon" id="heart">
+        		</a>
+        		
+        		<div class = "search-bar-container">
+					<form>
+						<button type="submit">
+							<img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000013_1549319004_search-icon.png" class="search-icon">
+						</button>
+						<input type="text" class= "search-bar"name="search" placeholder="Search">
+						<button type="submit">
+							<img src="Icons/mic.png" class="mic-icon">
+						</button>
+					</form>
+				</div>
+				<a href="">
+					<p>
+						Notifications
+					</p>
+					<img src="Icons/notif'.png" class="dropdown-menu-icon">
+				</a>
+				
+        	</div>
+		</div>
+		
+		<div id="favourites" class="nav-item">
+			<a href="">
+				Favourites
+			</a>
+		</div>
+		<div class="nav-item search-bar-container" id = "nav-search">
+			<form>
+				<button type="submit">
+					<img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000013_1549319004_search-icon.png" class="search-icon">
+				</button>
+				<input type="text" class= "search-bar"name="search" placeholder="Search">
+				<button type="submit">
+					<img src="Icons/mic.png" class="mic-icon">
+				</button>
+			</form>
+		</div>
+		<div class="nav-item" id="notification">
+			<a href="">
+				<img src="Icons/notif'.png" id="notif-icon">
+			</a>			
+		</div>
+		<div class="nav-item" id="profile-pic">
+			<a href="">
+				<img src="Profiles+Logo/profile.jpg">
+			</a>
+			<div id="profile-text">
+				<p>
+					Ayush Kumar Singh
+				</p>
+				<hr>
+					<a href="">View Profile</a>
+				<hr>
+					<a href="">Equalizer</a>
+				<hr>
+					<a href="">Logout</a>
+			</div>
+		</div>
+		
+	</section>
+
+<!-- Content of Page -->
+
+	<section id="content">
+
+		<!-- Main Body -->
+		<section id="main-body">
+
+			<!-- Cover Band -->
+			<div class="sub-section" id="about-band">
+				<a href="https://en.wikipedia.org/wiki/Jain_(singer)" target="_blank" id="cover-photo">
+					<img src="Single Player/Band Photos/jain.jpg" id="cover-photo">
+				</a>
+				
+				<div id="cover-info">
+					<h2 class="sub-section-heading">
+						Jain
+					</h2>
+					<p id="subscript">
+						French Singer
+					</p>
+					<p id="about">
+						Jeanne Louise Galice, better known by her stage name Jain, is a French musician and singer-songwriter. Her debut album, Zanaka, was released on 6 November 2015. Jain’s second album, titled Souldier, was released on 24 August 2018. Zanaka is the first studio album by French singer-songwriter Jain, released on 6 November 2015.
+					</p>
+					<button id="play-button">
+						<div class="eff-1">
+						</div>
+						<a href="">
+							Play All
+						</a>
+					</button>
+					<button id="follow-button">
+						<div class="eff-2">
+						</div>
+						<a href="">
+							Follow
+						</a>
+					</button>
+					<div id="discography">
+						<a href="">
+							2 Albums &nbsp
+						</a>
+						<a href="">
+							|&nbsp 30 Tracks 
+						</a>
+						<div id="discography-border">
+						
+						</div>
+					</div>					
+				</div>
+			</div>
+
+			<!-- Tracks List -->
+			<div class="sub-section" id="tracks-section">
+				<ol id="tracks-list">
+					<li class="track">
+						<img src="Aside/hotel.jpg" id="song-icon">
+						<a href="#player">
+							<img src="Aside/play.png" id="play-icon">
+						</a>
+						<div class="tracks-song-info">
+							<p id="song-name">
+								Hotel California
+							</p>
+							<p id="artist-name">
+								Eagles
+							</p>
+						</div>
+						<div class="icons">
+							<a href="" class="heart-icon">
+								<img src="Icons/heart1.png">
+							</a>	
+							<a href="" class="playlist-icon">
+								<img src="Icons/playlist.png">
+							</a>
+							<div class="list">
+								<img src="Icons/list.png">
+								<div class="list-dropdown">
+									<a href="">
+										Add to Favourites
+									</a>
+									<br>
+									<a href="">
+										Add to Playlist
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="track">
+						<img src="Aside/21guns.jpg" id="song-icon">
+						<a href="#player">
+							<img src="Aside/play.png" id="play-icon">
+						</a>
+						<div class="tracks-song-info">
+							<p id="song-name">
+								21 Guns
+							</p>
+							<p id="artist-name">
+								Green Day
+							</p>
+						</div>
+						<div class="icons">
+							<a href="" class="heart-icon">
+								<img src="Icons/heart1.png">
+							</a>	
+							<a href="" class="playlist-icon">
+								<img src="Icons/playlist.png">
+							</a>
+							<div class="list">
+								<img src="Icons/list.png">
+								<div class="list-dropdown">
+									<a href="">
+										Add to Favourites
+									</a>
+									<br>
+									<a href="">
+										Add to Playlist
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="track">
+						<img src="Aside/aurevoir.jpg" id="song-icon">
+						<a href="#player">
+							<img src="Aside/play.png" id="play-icon">
+						</a>
+						<div class="tracks-song-info">
+							<p id="song-name">
+								Au Revoir
+							</p>
+							<p id="artist-name">
+								One Republic
+							</p>
+						</div>
+						<div class="icons">
+							<a href="" class="heart-icon">
+								<img src="Icons/heart1.png">
+							</a>	
+							<a href="" class="playlist-icon">
+								<img src="Icons/playlist.png">
+							</a>
+							<div class="list">
+								<img src="Icons/list.png">
+								<div class="list-dropdown">
+									<a href="">
+										Add to Favourites
+									</a>
+									<br>
+									<a href="">
+										Add to Playlist
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="track">
+						<img src="Aside/falling.jpg" id="song-icon">
+						<a href="#player">
+							<img src="Aside/play.png" id="play-icon">
+						</a>
+						<div class="tracks-song-info">
+							<p id="song-name">
+								Falling Slowly
+							</p>
+							<p id="artist-name">
+								Glen Hansard
+							</p>
+						</div>
+						<div class="icons">
+							<a href="" class="heart-icon">
+								<img src="Icons/heart1.png">
+							</a>	
+							<a href="" class="playlist-icon">
+								<img src="Icons/playlist.png">
+							</a>
+							<div class="list">
+								<img src="Icons/list.png">
+								<div class="list-dropdown">
+									<a href="">
+										Add to Favourites
+									</a>
+									<br>
+									<a href="">
+										Add to Playlist
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="track">
+						<img src="Aside/survival.jpg" id="song-icon">
+						<a href="#player">
+							<img src="Aside/play.png" id="play-icon">
+						</a>
+						<div class="tracks-song-info">
+							<p id="song-name">
+								Survival
+							</p>
+							<p id="artist-name">
+								Eminem
+							</p>
+						</div>
+						<div class="icons">
+							<a href="" class="heart-icon">
+								<img src="Icons/heart1.png">
+							</a>	
+							<a href="" class="playlist-icon">
+								<img src="Icons/playlist.png">
+							</a>
+							<div class="list">
+								<img src="Icons/list.png">
+								<div class="list-dropdown">
+									<a href="">
+										Add to Favourites
+									</a>
+									<br>
+									<a href="">
+										Add to Playlist
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="track">
+						<img src="Aside/time.jpg" id="song-icon">
+						<a href="#player">
+							<img src="Aside/play.png" id="play-icon">
+						</a>
+						<div class="tracks-song-info">
+							<p id="song-name">
+								Time
+							</p>
+							<p id="artist-name">
+								Imagine Dragons
+							</p>
+						</div>
+						<div class="icons">
+							<a href="" class="heart-icon">
+								<img src="Icons/heart1.png">
+							</a>	
+							<a href="" class="playlist-icon">
+								<img src="Icons/playlist.png">
+							</a>
+							<div class="list">
+								<img src="Icons/list.png">
+								<div class="list-dropdown">
+									<a href="">
+										Add to Favourites
+									</a>
+									<br>
+									<a href="">
+										Add to Playlist
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="track">
+						<img src="Aside/tourist.jpg" id="song-icon">
+						<a href="#player">
+							<img src="Aside/play.png" id="play-icon">
+						</a>
+						<div class="tracks-song-info">
+							<p id="song-name">
+								Tourist
+							</p>
+							<p id="artist-name">
+								Yuna
+							</p>
+						</div>
+						<div class="icons">
+							<a href="" class="heart-icon">
+								<img src="Icons/heart1.png">
+							</a>	
+							<a href="" class="playlist-icon">
+								<img src="Icons/playlist.png">
+							</a>
+							<div class="list">
+								<img src="Icons/list.png">
+								<div class="list-dropdown">
+									<a href="">
+										Add to Favourites
+									</a>
+									<br>
+									<a href="">
+										Add to Playlist
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="track">
+						<img src="Aside/uptown.jpg" id="song-icon">
+						<a href="#player">
+							<img src="Aside/play.png" id="play-icon">
+						</a>
+						<div class="tracks-song-info">
+							<p id="song-name">
+								Uptown Girl
+							</p>
+							<p id="artist-name">
+								Billy Joel
+							</p>
+						</div>
+						<div class="icons">
+							<a href="" class="heart-icon">
+								<img src="Icons/heart1.png">
+							</a>	
+							<a href="" class="playlist-icon">
+								<img src="Icons/playlist.png">
+							</a>
+							<div class="list">
+								<img src="Icons/list.png">
+								<div class="list-dropdown">
+									<a href="">
+										Add to Favourites
+									</a>
+									<br>
+									<a href="">
+										Add to Playlist
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="track">
+						<img src="Aside/freebird.jpg" id="song-icon">
+						<a href="#player">
+							<img src="Aside/play.png" id="play-icon">
+						</a>
+						<div class="tracks-song-info">
+							<p id="song-name">
+								Freebird
+							</p>
+							<p id="artist-name">
+								Lynyrd Skynyrd
+							</p>
+						</div>
+						<div class="icons">
+							<a href="" class="heart-icon">
+								<img src="Icons/heart1.png">
+							</a>	
+							<a href="" class="playlist-icon">
+								<img src="Icons/playlist.png">
+							</a>
+							<div class="list">
+								<img src="Icons/list.png">
+								<div class="list-dropdown">
+									<a href="">
+										Add to Favourites
+									</a>
+									<br>
+									<a href="">
+										Add to Playlist
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="track">
+						<img src="Aside/hotel.jpg" id="song-icon">
+						<a href="#player">
+							<img src="Aside/play.png" id="play-icon">
+						</a>
+						<div class="tracks-song-info">
+							<p id="song-name">
+								Hotel California
+							</p>
+							<p id="artist-name">
+								Eagles
+							</p>
+						</div>
+						<div class="icons">
+							<a href="" class="heart-icon">
+								<img src="Icons/heart1.png">
+							</a>	
+							<a href="" class="playlist-icon">
+								<img src="Icons/playlist.png">
+							</a>
+							<div class="list">
+								<img src="Icons/list.png">
+								<div class="list-dropdown">
+									<a href="">
+										Add to Favourites
+									</a>
+									<br>
+									<a href="">
+										Add to Playlist
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="track">
+						<img src="Aside/21guns.jpg" id="song-icon">
+						<a href="#player">
+							<img src="Aside/play.png" id="play-icon">
+						</a>
+						<div class="tracks-song-info">
+							<p id="song-name">
+								21 Guns
+							</p>
+							<p id="artist-name">
+								Green Day
+							</p>
+						</div>
+						<div class="icons">
+							<a href="" class="heart-icon">
+								<img src="Icons/heart1.png">
+							</a>	
+							<a href="" class="playlist-icon">
+								<img src="Icons/playlist.png">
+							</a>
+							<div class="list">
+								<img src="Icons/list.png">
+								<div class="list-dropdown">
+									<a href="">
+										Add to Favourites
+									</a>
+									<br>
+									<a href="">
+										Add to Playlist
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="track">
+						<img src="Aside/aurevoir.jpg" id="song-icon">
+						<a href="#player">
+							<img src="Aside/play.png" id="play-icon">
+						</a>
+						<div class="tracks-song-info">
+							<p id="song-name">
+								Au Revoir
+							</p>
+							<p id="artist-name">
+								One Republic
+							</p>
+						</div>
+						<div class="icons">
+							<a href="" class="heart-icon">
+								<img src="Icons/heart1.png">
+							</a>	
+							<a href="" class="playlist-icon">
+								<img src="Icons/playlist.png">
+							</a>
+							<div class="list">
+								<img src="Icons/list.png">
+								<div class="list-dropdown">
+									<a href="">
+										Add to Favourites
+									</a>
+									<br>
+									<a href="">
+										Add to Playlist
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="track">
+						<img src="Aside/falling.jpg" id="song-icon">
+						<a href="#player">
+							<img src="Aside/play.png" id="play-icon">
+						</a>
+						<div class="tracks-song-info">
+							<p id="song-name">
+								Falling Slowly
+							</p>
+							<p id="artist-name">
+								Glen Hansard
+							</p>
+						</div>
+						<div class="icons">
+							<a href="" class="heart-icon">
+								<img src="Icons/heart1.png">
+							</a>	
+							<a href="" class="playlist-icon">
+								<img src="Icons/playlist.png">
+							</a>
+							<div class="list">
+								<img src="Icons/list.png">
+								<div class="list-dropdown">
+									<a href="">
+										Add to Favourites
+									</a>
+									<br>
+									<a href="">
+										Add to Playlist
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="track">
+						<img src="Aside/survival.jpg" id="song-icon">
+						<a href="#player">
+							<img src="Aside/play.png" id="play-icon">
+						</a>
+						<div class="tracks-song-info">
+							<p id="song-name">
+								Survival
+							</p>
+							<p id="artist-name">
+								Eminem
+							</p>
+						</div>
+						<div class="icons">
+							<a href="" class="heart-icon">
+								<img src="Icons/heart1.png">
+							</a>	
+							<a href="" class="playlist-icon">
+								<img src="Icons/playlist.png">
+							</a>
+							<div class="list">
+								<img src="Icons/list.png">
+								<div class="list-dropdown">
+									<a href="">
+										Add to Favourites
+									</a>
+									<br>
+									<a href="">
+										Add to Playlist
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="track">
+						<img src="Aside/time.jpg" id="song-icon">
+						<a href="#player">
+							<img src="Aside/play.png" id="play-icon">
+						</a>
+						<div class="tracks-song-info">
+							<p id="song-name">
+								Time
+							</p>
+							<p id="artist-name">
+								Imagine Dragons
+							</p>
+						</div>
+						<div class="icons">
+							<a href="" class="heart-icon">
+								<img src="Icons/heart1.png">
+							</a>	
+							<a href="" class="playlist-icon">
+								<img src="Icons/playlist.png">
+							</a>
+							<div class="list">
+								<img src="Icons/list.png">
+								<div class="list-dropdown">
+									<a href="">
+										Add to Favourites
+									</a>
+									<br>
+									<a href="">
+										Add to Playlist
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="track">
+						<img src="Aside/tourist.jpg" id="song-icon">
+						<a href="#player">
+							<img src="Aside/play.png" id="play-icon">
+						</a>
+						<div class="tracks-song-info">
+							<p id="song-name">
+								Tourist
+							</p>
+							<p id="artist-name">
+								Yuna
+							</p>
+						</div>
+						<div class="icons">
+							<a href="" class="heart-icon">
+								<img src="Icons/heart1.png">
+							</a>	
+							<a href="" class="playlist-icon">
+								<img src="Icons/playlist.png">
+							</a>
+							<div class="list">
+								<img src="Icons/list.png">
+								<div class="list-dropdown">
+									<a href="">
+										Add to Favourites
+									</a>
+									<br>
+									<a href="">
+										Add to Playlist
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="track">
+						<img src="Aside/uptown.jpg" id="song-icon">
+						<a href="#player">
+							<img src="Aside/play.png" id="play-icon">
+						</a>
+						<div class="tracks-song-info">
+							<p id="song-name">
+								Uptown Girl
+							</p>
+							<p id="artist-name">
+								Billy Joel
+							</p>
+						</div>
+						<div class="icons">
+							<a href="" class="heart-icon">
+								<img src="Icons/heart1.png">
+							</a>	
+							<a href="" class="playlist-icon">
+								<img src="Icons/playlist.png">
+							</a>
+							<div class="list">
+								<img src="Icons/list.png">
+								<div class="list-dropdown">
+									<a href="">
+										Add to Favourites
+									</a>
+									<br>
+									<a href="">
+										Add to Playlist
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="track">
+						<img src="Aside/freebird.jpg" id="song-icon">
+						<a href="#player">
+							<img src="Aside/play.png" id="play-icon">
+						</a>
+						<div class="tracks-song-info">
+							<p id="song-name">
+								Freebird
+							</p>
+							<p id="artist-name">
+								Lynyrd Skynyrd
+							</p>
+						</div>
+						<div class="icons">
+							<a href="" class="heart-icon">
+								<img src="Icons/heart1.png">
+							</a>	
+							<a href="" class="playlist-icon">
+								<img src="Icons/playlist.png">
+							</a>
+							<div class="list">
+								<img src="Icons/list.png">
+								<div class="list-dropdown">
+									<a href="">
+										Add to Favourites
+									</a>
+									<br>
+									<a href="">
+										Add to Playlist
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ol>
+			</div>
+
+		</section>
+
+
+		<!-- Aside Section -->
+		<section class="aside" id="queue">
+
+			<!-- Aside Header -->
+			<div class="aside-header">
+				<h3 class="aside-heading">
+					Similar Artists
+				</h3>
+				<div class="aside-dropdown">
+					<img src="Icons/down.png">
+					<div class="aside-options">
+						<a href="">
+							<p>Genres</p>
+						</a>
+						<hr>
+						<a href="">
+							<p>Popularity</p>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<!-- Aside Content -->
+			<div class="aside-content">
+				<ol>
+					<li>
+						<div class="song">
+							<div class="album-art">
+								<a href="#player">
+									<img src="Album Art/Dark.jpg" alt="Dark Side of the Moon">
+								</a>
+							</div>
+							<div class="info">
+								<p class="name">
+									Imagine Dragons
+								</p>
+								<p class="band">
+									Alternative Rock Band
+								</p>
+							</div>
+							<div class="options">
+								<a href="">
+									<div class="dots">
+									<img src="Album Art/dots.png">
+								</div>
+								</a>
+								
+								<div class="play-options">
+									<a href="">
+										<div class="play-options-list">
+										
+										<img src="Album Art/Icons/play.png">
+										<p>Play Now</p>
+									
+										
+									</div>
+									</a>
+									
+									<a href="">
+										<div class="play-options-list">
+										<img src="Album Art/Icons/add.png">
+										
+											<p>Add to Queue</p>
+									</div>
+									</a>
+									
+									<a href="">
+										<div class="play-options-list">
+										<img src="Album Art/Icons/favourites.png">
+											<p>Add to Favourites</p>
+									</div>	
+									</a>
+									
+									<a href="">
+										<div class="play-options-list">
+										
+										<img src="Album Art/Icons/info.png">
+											<p>Get Info</p>
+										
+									</div>	
+									</a>
+									
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="song">
+							<div class="album-art">
+								<a href="#player">
+									<img src="Latest Songs/lorde.jpg" alt="Dark Side of the Moon">
+								</a>
+							</div>
+							<div class="info">
+								<p class="name">
+									Lorde
+								</p>
+								<p class="band">
+									English Singer
+								</p>
+							</div>
+							<div class="options">
+								<a href="">
+									<div class="dots">
+									<img src="Album Art/dots.png">
+								</div>
+								</a>
+								
+								<div class="play-options">
+									<a href="">
+										<div class="play-options-list">
+										
+										<img src="Album Art/Icons/play.png">
+										<p>Play Now</p>
+									
+										
+									</div>
+									</a>
+									
+									<a href="">
+										<div class="play-options-list">
+										<img src="Album Art/Icons/add.png">
+										
+											<p>Add to Queue</p>
+									</div>
+									</a>
+									
+									<a href="">
+										<div class="play-options-list">
+										<img src="Album Art/Icons/favourites.png">
+											<p>Add to Favourites</p>
+									</div>	
+									</a>
+									
+									<a href="">
+										<div class="play-options-list">
+										
+										<img src="Album Art/Icons/info.png">
+											<p>Get Info</p>
+										
+									</div>	
+									</a>
+									
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="song">
+							<div class="album-art">
+								<a href="#player">
+									<img src="Latest Songs/acdc.jpg" alt="Dark Side of the Moon">
+								</a>
+							</div>
+							<div class="info">
+								<p class="name">
+									AC/DC
+								</p>
+								<p class="band">
+									Rock Band
+								</p>
+							</div>
+							<div class="options">
+								<a href="">
+									<div class="dots">
+									<img src="Album Art/dots.png">
+								</div>
+								</a>
+								
+								<div class="play-options">
+									<a href="">
+										<div class="play-options-list">
+										
+										<img src="Album Art/Icons/play.png">
+										<p>Play Now</p>
+									
+										
+									</div>
+									</a>
+									
+									<a href="">
+										<div class="play-options-list">
+										<img src="Album Art/Icons/add.png">
+										
+											<p>Add to Queue</p>
+									</div>
+									</a>
+									
+									<a href="">
+										<div class="play-options-list">
+										<img src="Album Art/Icons/favourites.png">
+											<p>Add to Favourites</p>
+									</div>	
+									</a>
+									
+									<a href="">
+										<div class="play-options-list">
+										
+										<img src="Album Art/Icons/info.png">
+											<p>Get Info</p>
+										
+									</div>	
+									</a>
+									
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="song">
+							<div class="album-art">
+								<a href="#player">
+									<img src="Latest Songs/coldplay.jpg" alt="Dark Side of the Moon">
+								</a>
+							</div>
+							<div class="info">
+								<p class="name">
+									Coldplay
+								</p>
+								<p class="band">
+									Pop Band
+								</p>
+							</div>
+							<div class="options">
+								<a href="">
+									<div class="dots">
+									<img src="Album Art/dots.png">
+								</div>
+								</a>
+								
+								<div class="play-options">
+									<a href="">
+										<div class="play-options-list">
+										
+										<img src="Album Art/Icons/play.png">
+										<p>Play Now</p>
+									
+										
+									</div>
+									</a>
+									
+									<a href="">
+										<div class="play-options-list">
+										<img src="Album Art/Icons/add.png">
+										
+											<p>Add to Queue</p>
+									</div>
+									</a>
+									
+									<a href="">
+										<div class="play-options-list">
+										<img src="Album Art/Icons/favourites.png">
+											<p>Add to Favourites</p>
+									</div>	
+									</a>
+									
+									<a href="">
+										<div class="play-options-list">
+										
+										<img src="Album Art/Icons/info.png">
+											<p>Get Info</p>
+										
+									</div>	
+									</a>
+									
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="song">
+							<div class="album-art">
+								<a href="#player">
+									<img src="Artists/Queen.jpg" alt="Dark Side of the Moon">
+								</a>
+							</div>
+							<div class="info">
+								<p class="name">
+									Queen
+								</p>
+								<p class="band">
+									Rock Band
+								</p>
+							</div>
+							<div class="options">
+								<a href="">
+									<div class="dots">
+									<img src="Album Art/dots.png">
+								</div>
+								</a>
+								
+								<div class="play-options">
+									<a href="">
+										<div class="play-options-list">
+										
+										<img src="Album Art/Icons/play.png">
+										<p>Play Now</p>
+									
+										
+									</div>
+									</a>
+									
+									<a href="">
+										<div class="play-options-list">
+										<img src="Album Art/Icons/add.png">
+										
+											<p>Add to Queue</p>
+									</div>
+									</a>
+									
+									<a href="">
+										<div class="play-options-list">
+										<img src="Album Art/Icons/favourites.png">
+											<p>Add to Favourites</p>
+									</div>	
+									</a>
+									
+									<a href="">
+										<div class="play-options-list">
+										
+										<img src="Album Art/Icons/info.png">
+											<p>Get Info</p>
+										
+									</div>	
+									</a>
+									
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="song">
+							<div class="album-art">
+								<a href="#player">
+									<img src="Album Art/Dark.jpg" alt="Dark Side of the Moon">
+								</a>
+							</div>
+							<div class="info">
+								<p class="name">
+									Imagine Dragons
+								</p>
+								<p class="band">
+									Rock Band
+								</p>
+							</div>
+							<div class="options">
+								<a href="">
+									<div class="dots">
+									<img src="Album Art/dots.png">
+								</div>
+								</a>
+								
+								<div class="play-options">
+									<a href="">
+										<div class="play-options-list">
+										
+										<img src="Album Art/Icons/play.png">
+										<p>Play Now</p>
+									
+										
+									</div>
+									</a>
+									
+									<a href="">
+										<div class="play-options-list">
+										<img src="Album Art/Icons/add.png">
+										
+											<p>Add to Queue</p>
+									</div>
+									</a>
+									
+									<a href="">
+										<div class="play-options-list">
+										<img src="Album Art/Icons/favourites.png">
+											<p>Add to Favourites</p>
+									</div>	
+									</a>
+									
+									<a href="">
+										<div class="play-options-list">
+										
+										<img src="Album Art/Icons/info.png">
+											<p>Get Info</p>
+										
+									</div>	
+									</a>
+									
+								</div>
+							</div>
+						</div>
+					</li>
+				</ol>
+				
+			</div>
+
+			<!-- Aside Header -->
+			<div class="aside-header">
+				<h3 class="aside-heading">
+					Recently Played
+				</h3>
+				<div class="aside-dropdown">
+					<img src="Icons/down.png">
+					<div class="aside-options">
+						<a href="#my-playlist">
+							<p>My Playlist</p>
+						</a>
+						<hr>
+						<a href="" class="disabled-link">
+							<p>Queue</p>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<!-- Aside Content -->
+			<div class="aside-content">
+				<ol>
+					<li>
+						<div class="aside-songs">
+							<img src="Aside/music.png" id="bullet">
+							<img src="Aside/falling.jpg" id="song-icon">
+							<a href="#player">
+								<img src="Aside/play.png" id="play-icon">
+							</a>
+							
+							<div class="aside-song-info">
+								<p id="song-name">
+									Falling Slowly
+								</p>
+								<p id="artist-name">
+									Glen Hansard
+								</p>
+							</div>
+							<a href="">
+								<img src="Aside/heart.png" id="icon">
+							</a>	
+						</div>
+					</li>
+					<li>
+						<div class="aside-songs">
+							<img src="Aside/music.png" id="bullet">
+							<img src="Aside/time.jpg" id="song-icon">
+							<a href="#player">
+								<img src="Aside/play.png" id="play-icon">
+							</a>
+							
+							<div class="aside-song-info">
+								<p id="song-name">
+									It's Time
+								</p>
+								<p id="artist-name">
+									Imagine Dragons
+								</p>
+							</div>
+							<a href="">
+								<img src="Aside/heart.png" id="icon">
+							</a>	
+						</div>
+					</li>
+					<li>
+						<div class="aside-songs">
+							<img src="Aside/music.png" id="bullet">
+							<img src="Aside/21guns.jpg" id="song-icon">
+							<a href="#player">
+								<img src="Aside/play.png" id="play-icon">
+							</a>
+							
+							<div class="aside-song-info">
+								<p id="song-name">
+									21 Guns
+								</p>
+								<p id="artist-name">
+									Green Day
+								</p>
+							</div>
+							<a href="">
+								<img src="Aside/heart.png" id="icon">
+							</a>	
+						</div>
+					</li>
+					<li>
+						<div class="aside-songs">
+							<img src="Aside/music.png" id="bullet">
+							<img src="Aside/uptown.jpg" id="song-icon">
+							<a href="#player">
+								<img src="Aside/play.png" id="play-icon">
+							</a>
+							
+							<div class="aside-song-info">
+								<p id="song-name">
+									Uptown Girl
+								</p>
+								<p id="artist-name">
+									Billy Joel
+								</p>
+							</div>
+							<a href="">
+								<img src="Aside/heart.png" id="icon">
+							</a>	
+						</div>
+					</li>
+					<li>
+						<div class="aside-songs">
+							<img src="Aside/music.png" id="bullet">
+							<img src="Aside/freebird.jpg" id="song-icon">
+							<a href="#player">
+								<img src="Aside/play.png" id="play-icon">
+							</a>
+							
+							<div class="aside-song-info">
+								<p id="song-name">
+									Freebird
+								</p>
+								<p id="artist-name">
+									Lynyrd Skynyrd
+								</p>
+							</div>
+							<a href="">
+								<img src="Aside/heart.png" id="icon">
+							</a>	
+						</div>
+					</li>
+					<li>
+						<div class="aside-songs">
+							<img src="Aside/music.png" id="bullet">
+							<img src="Aside/survival.jpg" id="song-icon">
+							<a href="#player">
+								<img src="Aside/play.png" id="play-icon">
+							</a>
+							
+							<div class="aside-song-info">
+								<p id="song-name">
+									Survival
+								</p>
+								<p id="artist-name">
+									Eminem
+								</p>
+							</div>
+							<a href="">
+								<img src="Aside/heart.png" id="icon">
+							</a>	
+						</div>
+					</li>
+					<li>
+						<div class="aside-songs">
+							<img src="Aside/music.png" id="bullet">
+							<img src="Aside/tourist.jpg" id="song-icon">
+							<a href="#player">
+								<img src="Aside/play.png" id="play-icon">
+							</a>
+							
+							<div class="aside-song-info">
+								<p id="song-name">
+									Tourist
+								</p>
+								<p id="artist-name">
+									Yuna
+								</p>
+							</div>
+							<a href="">
+								<img src="Aside/heart.png" id="icon">
+							</a>	
+						</div>
+					</li>
+					<li>
+						<div class="aside-songs">
+							<img src="Aside/music.png" id="bullet">
+							<img src="Aside/aurevoir.jpg" id="song-icon">
+							<a href="#player">
+								<img src="Aside/play.png" id="play-icon">
+							</a>
+							
+							<div class="aside-song-info">
+								<p id="song-name">
+									Au Revoir
+								</p>
+								<p id="artist-name">
+									One Republic
+								</p>
+							</div>
+							<a href="">
+								<img src="Aside/heart.png" id="icon">
+							</a>	
+						</div>
+					</li>
+					<li>
+						<div class="aside-songs">
+							<img src="Aside/music.png" id="bullet">
+							<img src="Aside/hotel.jpg" id="song-icon">
+							<a href="#player">
+								<img src="Aside/play.png" id="play-icon">
+							</a>
+							
+							<div class="aside-song-info">
+								<p id="song-name">
+									Hotel California
+								</p>
+								<p id="artist-name">
+									Eagles
+								</p>
+							</div>
+							<a href="">
+								<img src="Aside/heart.png" id="icon">
+							</a>	
+						</div>
+					</li>
+					<li>
+						<div class="aside-songs">
+							<img src="Aside/music.png" id="bullet">
+							<img src="Aside/falling.jpg" id="song-icon">
+							<a href="#player">
+								<img src="Aside/play.png" id="play-icon">
+							</a>
+							
+							<div class="aside-song-info">
+								<p id="song-name">
+									Falling Slowly
+								</p>
+								<p id="artist-name">
+									Glen Hansard
+								</p>
+							</div>
+							<a href="">
+								<img src="Aside/heart.png" id="icon">
+							</a>	
+						</div>
+					</li>
+					<li>
+						<div class="aside-songs">
+							<img src="Aside/music.png" id="bullet">
+							<img src="Aside/time.jpg" id="song-icon">
+							<a href="#player">
+								<img src="Aside/play.png" id="play-icon">
+							</a>
+							
+							<div class="aside-song-info">
+								<p id="song-name">
+									It's Time
+								</p>
+								<p id="artist-name">
+									Imagine Dragons
+								</p>
+							</div>
+							<a href="">
+								<img src="Aside/heart.png" id="icon">
+							</a>	
+						</div>
+					</li>
+					<li>
+						<div class="aside-songs">
+							<img src="Aside/music.png" id="bullet">
+							<img src="Aside/21guns.jpg" id="song-icon">
+							<a href="#player">
+								<img src="Aside/play.png" id="play-icon">
+							</a>
+							
+							<div class="aside-song-info">
+								<p id="song-name">
+									21 Guns
+								</p>
+								<p id="artist-name">
+									Green Day
+								</p>
+							</div>
+							<a href="">
+								<img src="Aside/heart.png" id="icon">
+							</a>	
+						</div>
+					</li>
+					<li>
+						<div class="aside-songs">
+							<img src="Aside/music.png" id="bullet">
+							<img src="Aside/uptown.jpg" id="song-icon">
+							<a href="#player">
+								<img src="Aside/play.png" id="play-icon">
+							</a>
+							
+							<div class="aside-song-info">
+								<p id="song-name">
+									Uptown Girl
+								</p>
+								<p id="artist-name">
+									Billy Joel
+								</p>
+							</div>
+							<a href="">
+								<img src="Aside/heart.png" id="icon">
+							</a>	
+						</div>
+					</li>
+					<li>
+						<div class="aside-songs">
+							<img src="Aside/music.png" id="bullet">
+							<img src="Aside/freebird.jpg" id="song-icon">
+							<a href="#player">
+								<img src="Aside/play.png" id="play-icon">
+							</a>
+							
+							<div class="aside-song-info">
+								<p id="song-name">
+									Freebird
+								</p>
+								<p id="artist-name">
+									Lynyrd Skynyrd
+								</p>
+							</div>
+							<a href="">
+								<img src="Aside/heart.png" id="icon">
+							</a>	
+						</div>
+					</li>
+					<li>
+						<div class="aside-songs">
+							<img src="Aside/music.png" id="bullet">
+							<img src="Aside/survival.jpg" id="song-icon">
+							<a href="#player">
+								<img src="Aside/play.png" id="play-icon">
+							</a>
+							
+							<div class="aside-song-info">
+								<p id="song-name">
+									Survival
+								</p>
+								<p id="artist-name">
+									Eminem
+								</p>
+							</div>
+							<a href="">
+								<img src="Aside/heart.png" id="icon">
+							</a>	
+						</div>
+					</li>
+					<li>
+						<div class="aside-songs">
+							<img src="Aside/music.png" id="bullet">
+							<img src="Aside/tourist.jpg" id="song-icon">
+							<a href="#player">
+								<img src="Aside/play.png" id="play-icon">
+							</a>
+							
+							<div class="aside-song-info">
+								<p id="song-name">
+									Tourist
+								</p>
+								<p id="artist-name">
+									Yuna
+								</p>
+							</div>
+							<a href="">
+								<img src="Aside/heart.png" id="icon">
+							</a>	
+						</div>
+					</li>
+					<li>
+						<div class="aside-songs">
+							<img src="Aside/music.png" id="bullet">
+							<img src="Aside/aurevoir.jpg" id="song-icon">
+							<a href="#player">
+								<img src="Aside/play.png" id="play-icon">
+							</a>
+							
+							<div class="aside-song-info">
+								<p id="song-name">
+									Au Revoir
+								</p>
+								<p id="artist-name">
+									One Republic
+								</p>
+							</div>
+							<a href="">
+								<img src="Aside/heart.png" id="icon">
+							</a>	
+						</div>
+					</li>
+					<li>
+						<div class="aside-songs">
+							<img src="Aside/music.png" id="bullet">
+							<img src="Aside/hotel.jpg" id="song-icon">
+							<a href="#player">
+								<img src="Aside/play.png" id="play-icon">
+							</a>
+							
+							<div class="aside-song-info">
+								<p id="song-name">
+									Hotel California
+								</p>
+								<p id="artist-name">
+									Eagles
+								</p>
+							</div>
+							<a href="">
+								<img src="Aside/heart.png" id="icon">
+							</a>	
+						</div>
+					</li>
+					<li>
+						<div class="aside-songs">
+							<img src="Aside/music.png" id="bullet">
+							<img src="Aside/falling.jpg" id="song-icon">
+							<a href="#player">
+								<img src="Aside/play.png" id="play-icon">
+							</a>
+							
+							<div class="aside-song-info">
+								<p id="song-name">
+									Falling Slowly
+								</p>
+								<p id="artist-name">
+									Glen Hansard
+								</p>
+							</div>
+							<a href="">
+								<img src="Aside/heart.png" id="icon">
+							</a>	
+						</div>
+					</li>
+					<li>
+						<div class="aside-songs">
+							<img src="Aside/music.png" id="bullet">
+							<img src="Aside/time.jpg" id="song-icon">
+							<a href="#player">
+								<img src="Aside/play.png" id="play-icon">
+							</a>
+							
+							<div class="aside-song-info">
+								<p id="song-name">
+									It's Time
+								</p>
+								<p id="artist-name">
+									Imagine Dragons
+								</p>
+							</div>
+							<a href="">
+								<img src="Aside/heart.png" id="icon">
+							</a>	
+						</div>
+					</li>
+					<li>
+						<div class="aside-songs">
+							<img src="Aside/music.png" id="bullet">
+							<img src="Aside/21guns.jpg" id="song-icon">
+							<a href="#player">
+								<img src="Aside/play.png" id="play-icon">
+							</a>
+							
+							<div class="aside-song-info">
+								<p id="song-name">
+									21 Guns
+								</p>
+								<p id="artist-name">
+									Green Day
+								</p>
+							</div>
+							<a href="">
+								<img src="Aside/heart.png" id="icon">
+							</a>	
+						</div>
+					</li>
+					<li>
+						<div class="aside-songs">
+							<img src="Aside/music.png" id="bullet">
+							<img src="Aside/uptown.jpg" id="song-icon">
+							<a href="#player">
+								<img src="Aside/play.png" id="play-icon">
+							</a>
+							
+							<div class="aside-song-info">
+								<p id="song-name">
+									Uptown Girl
+								</p>
+								<p id="artist-name">
+									Billy Joel
+								</p>
+							</div>
+							<a href="">
+								<img src="Aside/heart.png" id="icon">
+							</a>	
+						</div>
+					</li>
+					<li>
+						<div class="aside-songs">
+							<img src="Aside/music.png" id="bullet">
+							<img src="Aside/falling.jpg" id="song-icon">
+							<a href="#player">
+								<img src="Aside/play.png" id="play-icon">
+							</a>
+							
+							<div class="aside-song-info">
+								<p id="song-name">
+									Falling Slowly
+								</p>
+								<p id="artist-name">
+									Glen Hansard
+								</p>
+							</div>
+							<a href="">
+								<img src="Aside/heart.png" id="icon">
+							</a>	
+						</div>
+					</li>
+					<li>
+						<div class="aside-songs">
+							<img src="Aside/music.png" id="bullet">
+							<img src="Aside/time.jpg" id="song-icon">
+							<a href="#player">
+								<img src="Aside/play.png" id="play-icon">
+							</a>
+							
+							<div class="aside-song-info">
+								<p id="song-name">
+									It's Time
+								</p>
+								<p id="artist-name">
+									Imagine Dragons
+								</p>
+							</div>
+							<a href="">
+								<img src="Aside/heart.png" id="icon">
+							</a>	
+						</div>
+					</li>
+					<li>
+						<div class="aside-songs">
+							<img src="Aside/music.png" id="bullet">
+							<img src="Aside/21guns.jpg" id="song-icon">
+							<a href="#player">
+								<img src="Aside/play.png" id="play-icon">
+							</a>
+							
+							<div class="aside-song-info">
+								<p id="song-name">
+									21 Guns
+								</p>
+								<p id="artist-name">
+									Green Day
+								</p>
+							</div>
+							<a href="">
+								<img src="Aside/heart.png" id="icon">
+							</a>	
+						</div>
+					</li>
+					<li>
+						<div class="aside-songs">
+							<img src="Aside/music.png" id="bullet">
+							<img src="Aside/uptown.jpg" id="song-icon">
+							<a href="#player">
+								<img src="Aside/play.png" id="play-icon">
+							</a>
+							
+							<div class="aside-song-info">
+								<p id="song-name">
+									Uptown Girl
+								</p>
+								<p id="artist-name">
+									Billy Joel
+								</p>
+							</div>
+							<a href="">
+								<img src="Aside/heart.png" id="icon">
+							</a>	
+						</div>
+					</li>
+					<li>
+						<div class="aside-songs">
+							<img src="Aside/music.png" id="bullet">
+							<img src="Aside/freebird.jpg" id="song-icon">
+							<a href="#player">
+								<img src="Aside/play.png" id="play-icon">
+							</a>
+							
+							<div class="aside-song-info">
+								<p id="song-name">
+									Freebird
+								</p>
+								<p id="artist-name">
+									Lynyrd Skynyrd
+								</p>
+							</div>
+							<a href="">
+								<img src="Aside/heart.png" id="icon">
+							</a>	
+						</div>
+					</li>
+					<li>
+						<div class="aside-songs">
+							<img src="Aside/music.png" id="bullet">
+							<img src="Aside/survival.jpg" id="song-icon">
+							<a href="#player">
+								<img src="Aside/play.png" id="play-icon">
+							</a>
+							
+							<div class="aside-song-info">
+								<p id="song-name">
+									Survival
+								</p>
+								<p id="artist-name">
+									Eminem
+								</p>
+							</div>
+							<a href="">
+								<img src="Aside/heart.png" id="icon">
+							</a>	
+						</div>
+					</li>
+					<li>
+						<div class="aside-songs">
+							<img src="Aside/music.png" id="bullet">
+							<img src="Aside/tourist.jpg" id="song-icon">
+							<a href="#player">
+								<img src="Aside/play.png" id="play-icon">
+							</a>
+							
+							<div class="aside-song-info">
+								<p id="song-name">
+									Tourist
+								</p>
+								<p id="artist-name">
+									Yuna
+								</p>
+							</div>
+							<a href="">
+								<img src="Aside/heart.png" id="icon">
+							</a>	
+						</div>
+					</li>
+				</ol>
+				
+			</div>
+
+		</section>
+	</section>
+
+
+<!-- Bottom  Music Player -->
+
+	<section id="player">
+		<div id="active-song">
+			<img src="Album Art/21pilots.jpg">	
+			<div id="song-info">
+				<p style="font-family: verdana; margin-top: 4px; font-size: 0.9rem">Stressed Out</p>
+				<p style="font-family: arial; font-weight: lighter; color: lightgrey; font-size: 0.8rem">21 Pilots</p>
+			</div>
+		</div>
+		<div id="player-options">
+			<audio controls>
+				<source src="Player/Who Did That To You- (John Legend).mp3" type="audio/mp3">
+				<source src="Player/Who Did That To You- (John Legend).ogg" type="audio/ogg">
+				<p>Your browser doesn't support HTML5 audio. Here is a <a href="https://www.youtube.com/watch?v=cAnOt74e9_Q">link to the audio</a> instead.</p>
+			</audio>
+		</div>
+		<div id="hidden-options">
+			<a href="" id="player-bars">
+				<img src="Player/bars.png">
+			</a>
+			<div id="hidden-options-dropdown">
+				<a href="">
+					<p>
+						<img src="Player/heart.png" style ="height: 20px; width: 20px;">
+							Add to Favourites
+					</p>
+				</a>
+				<hr>
+				<a href="">
+					<p>
+						<img src="Player/previous.png" style ="height: 20px; width: 20px;">
+							Play Previous
+					</p>
+				</a>
+				<hr>
+				<a href="">
+					<p>
+						<img src="Player/next.png" style ="height: 20px; width: 20px;">
+							Play Next
+					</p>
+				</a>
+				<hr>
+				<a href="">
+					<p>
+						<img src="Player/repeat.png" style ="height: 20px; width: 20px;">
+							Play on Repeat
+					</p>
+				</a>
+				<hr>
+				<a href="">
+					<p>
+						<img src="Player/shuffle.png" style ="height: 20px; width: 20px;">
+							Shuffle Your Playlist
+					</p>
+				</a>
+			</div>
+		</div>
+		
+		<div id="player-icons">
+			<a href="">
+				<img src="Player/heart.png">
+				<img src="Player/previous.png">
+				<img src="Player/next.png">
+				<img src="Player/repeat.png">
+				<img src="Player/shuffle.png" style="height: 50px; width: 50px;">
+			</a>		
+		</div>
+		<a href="#" id="close-icon">
+			<img src="Icons/close.png">
+		</a>
+	</section>
+
+</body>
+</html>

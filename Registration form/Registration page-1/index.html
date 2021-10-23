@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        #image {
+            width: 70%;
+            height: 50%;
+        }
+        
+        #fname {
+            text-align-last: inherit;
+        }
+        
+        body {
+            background-color: lightblue;
+        }
+        
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+            text-align: center;
+        }
+        
+        .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            font-size: 17px;
+        }
+        
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        
+        .a {
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+    <script>
+            function myFunction() {
+            alert("Data Save successfully");
+            }
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <div class="topnav"
+            <a href="#Signup" alt="Signup">Signup<span></span></a>
+   
+    </header>
+    <div>
+        <div id="main">
+            <center>
+                <div id="frame">
+
+                    <h2> Sign Up </h2>
+                    <div id="fname">
+                        Full Name  <input type="text" name="BaseSalary" size=25 maxlength=25><br><br>
+                    </div>
+                    <div>
+                        Email  &nbsp&nbsp&nbsp <input type="text-" name="BaseSalary" size=25 maxlength=35><br><br>
+                    </div>
+                    <div class="form-groups">
+                        <label for="password">Password  &nbsp&nbsp</label>
+                        <input type="password" id="password" placeholder="Create Password (Min. 8 characters)" required
+                        pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$" title="Please include atleast 1 Uppercase character, 1 lowercase character and 1 number">
+                    </div>
+                    <br><br>
+                    <div class="form-groups">
+                        <label for="confirmpass">Confirm Password  &nbsp&nbsp</label>
+                        <input type="password" id="confirmpass" placeholder="Confirm Password" required
+                            pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$" name="password">
+                    </div>
+                    
+                    <div>
+                    <br><br>
+                        Gender <input type="radio" name="gender" ,value="Male"><label for="MAle"></label>Male</label>
+                        <input type="radio" name="gender" ,value="Female"><label for="Female"></label>Female</label><br><br>
+                        <br>
+
+                    </div>
+                    <div>
+                        Security Question<br><br>
+                        <select name="" id="">
+                        <option value="">What is your first pet name</option>
+                        <option value="">Which is your fav Subject</option>    
+                        <option value="">What is the Name of your First School</option>
+            
+                    </select>
+                        <br><br>
+                        <input type="text-" name="BaseSalary" size=25 maxlength=35><br><br>
+                    </div>
+                    <br>
+                    <br>
+                    <div id="button">
+                        <button onclick="myFunction()" type="button">Submit</button>
+                    </div>
+
+                </div>
+            </center>
+        </div>
+
+</body>
+
+</html>

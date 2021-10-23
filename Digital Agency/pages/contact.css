@@ -1,0 +1,68 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    overflow-x: hidden;
+    font-size: 15px;
+    scroll-behavior: smooth;
+  }
+  * {
+    scroll-behavior: smooth;
+    scroll-margin-top: 120px;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  
+  :root {
+    --primaryColor: #393939;
+    --darkBlack: #232323;
+    --lightBlack: #666;
+    --pink: #ff506f;
+    --white: #fff;
+    --secondaryColor: #172182;
+  }
+
+  /* contact */
+.contact {
+    padding-bottom: 2rem;
+   }
+   iframe{
+     width:100%;
+   }
+   .contact__h1{
+     text-transform: uppercase;
+     text-align: center;
+     padding-top: 1rem;
+     color: #364352;
+   }
+   .contact__address {
+     padding-top: 4rem;
+     display: flex;
+     justify-content: space-around;
+   }
+   .contact__div1 {
+     margin-top: 1rem;
+    
+   }
+   .contact__icons {
+     color: var(--primaryColor);
+   }
+   .contact__p {
+     color: var(--primaryColor);
+   }
+   .contact__prg {
+     padding-top: 1rem;
+     color: #333333;
+   }
+   .contact__p{
+     padding-top: 0.1rem;
+   }

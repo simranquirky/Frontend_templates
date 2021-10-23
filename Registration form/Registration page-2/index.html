@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation Template </title>
+    <link rel="icon" type="image/png" href="#">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Sign Up</h1>
+        <form id="form">
+            <div class="form-groups">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Enter your full name" required minlength="3" max="100" name="name">
+            </div>
+            <div class="form-groups">
+                <label for="number">Phone Number</label>
+                <input type='tel' id="number" placeholder="1122223344" required pattern="[0-9]{10}" name="phone">
+            </div>
+            <div class="form-groups">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="email@address.com" required name="email">
+            </div>
+            <div class="form-groups">
+                <label for="url">Website URL</label>
+                <input type="url" id="url" placeholder="https://sample.com" required name="website">
+            </div>
+            <div class="form-groups">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Create Password (Min. 8 characters)" required
+                    pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$" title="Please include atleast 1 Uppercase character, 1 lowercase character and 1 number">
+            </div>
+            <div class="form-groups">
+                <label for="confirmpass">Confirm Password</label>
+                <input type="password" id="confirmpass" placeholder="Confirm Password" required
+                    pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$" name="password">
+            </div>
+                <button id="register"> Register</button>
+
+        </form>
+        <!-- error/success message -->
+        <div class="message-container">
+            <h3 id="message">Go Ahead!</h3>
+        </div>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>

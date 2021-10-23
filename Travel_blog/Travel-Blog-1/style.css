@@ -1,0 +1,105 @@
+body{
+  background-image: url(Venice.jpg);
+  background-color: rgba(50, 40, 50, 0.5);
+  width: 100%;
+  height: 100%;
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  margin: 0px;
+}
+
+.heading {
+  background-blend-mode: overlay;
+  opacity: 0.5;
+  font-size: 23px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding-bottom:0.5px;
+  padding-top: 1px;
+}
+
+.heading h1:hover{
+  animation: colorRotate 3s linear 0s infinite;
+}
+
+@keyframes colorRotate {
+  from {
+    color: red;
+  }
+  10% {
+    color: yellow;
+  }
+  25% {
+    color: green;
+  }
+  50% {
+    color: cyan;
+  }
+  75% {
+    color: darkblue;
+  }
+  100%{
+    color: lightpink;
+  }
+}
+
+.nav {
+  background-color: black;
+  overflow: hidden;
+  text-align: center;
+  color: black;
+  opacity:0.5;
+  padding-top: 2px;
+}
+
+
+/* Style the links inside the navigation bar */
+.nav a {
+  opacity: 1;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 30px;
+}
+
+/* Change the color of links on hover */
+.nav a:hover {
+  text-decoration: underline;
+  transition: 1s;
+  font-weight: bold;
+  opacity: 1;
+}
+
+h2{
+  text-align: center;
+  margin-top: 500px;
+  font-size: 60px;
+  color: white;
+  font-family: serif;
+  font-weight: bold;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+.button{
+  overflow: hidden;
+  text-align: center;
+  color: black;
+}
+
+.button a{
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  font-family: serif;
+  font-weight: bolder;
+  padding: 7px;
+}
+
+.button a:hover{
+  text-decoration: underline;
+}

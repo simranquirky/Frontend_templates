@@ -1,0 +1,169 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #222;
+  font-size: 120%;
+  background-image: url(./assets/oxa-roxa-tOqoBPr12C8-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card {
+  background-image: url(./assets/tom-barrett-hgGplX3PFBg-unsplash.png);
+  color: white;
+  width: 70%;
+  max-width: 1280px;
+  height: 80%;
+  max-height: 720px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+.icon {
+  display: none;
+}
+
+/* Display */
+
+.display {
+  width: 60%;
+  padding-left: 60px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 20px;
+}
+
+.heading {
+  font-weight: 200;
+  font-size: 18px;
+}
+
+.place {
+  margin-top: 270px;
+  /* padding: 20px 0; */
+  display: flex;
+  font-size: 30px;
+  height: 70px;
+  padding: 10px 0;
+}
+
+.coordinates {
+  display: flex;
+  font-weight: 200;
+}
+
+.info {
+  display: flex;
+  margin: 0px 0;
+  /* padding: 30px 0; */
+}
+
+.tempDisplay {
+  width: 25%;
+  padding-top: 5px;
+}
+
+.desc {
+  margin-left: 15px;
+  width: 60%;
+  margin: 0;
+}
+
+#description {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+#descLogo {
+  height: 55px;
+  width: 55px;
+  padding-top: 15px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 80px;
+  margin: 0;
+}
+
+h4 {
+  margin: 0;
+  font-weight: 200;
+}
+
+h2 {
+  margin: 0;
+}
+
+#longi {
+  padding-left: 10px;
+}
+
+#country {
+  padding-left: 10px;
+}
+/* Display */
+
+/* Values */
+
+.values {
+  padding: 40px 45px 0 45px;
+  display: flex;
+  backdrop-filter: blur(10px);
+  width: 40%;
+  flex-direction: column;
+}
+
+#searchInput {
+  background: rgba(0, 0, 0, 0);
+  width: 70%;
+  height: 35px;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  padding: 0 20px;
+}
+
+button {
+  background: rgba(0, 0, 0, 0);
+  height: 40px;
+  width: 40px;
+  border: none;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-radius: 3px;
+  /* padding-left: 15px; */
+}
+
+.search {
+  padding-top: 3px;
+}
+
+.weatherDetail {
+  /* padding: 200px 0px 50px 0px; */
+  color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  margin: auto 0;
+  flex-direction: column;
+  font-size: 16px;
+  padding-top: 230px;
+}
+
+.weatherDetail > div {
+  padding: 18px 0;
+  justify-content: space-between;
+  display: flex;
+}
+
+.svg {
+  color: rgba(255, 255, 255, 0.6);
+}

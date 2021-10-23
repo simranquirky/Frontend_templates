@@ -1,0 +1,49 @@
+.navbar-contentbar{
+    height: 54px;
+    background-color: #fff;
+    border-bottom : 1px solid #dbdbdb;
+
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+
+.navbar-instalogo{
+    margin-top: 10px;
+}
+
+.navbar-icon{
+    margin: 15px 10px;
+}
+
+.navbar-avatar{
+    max-width:25px;
+    max-height: 25px;
+    margin: 15px 10px;
+}
+
+.navbar-search{
+    width:215px;
+    height:25px;
+    margin-top: 15px;
+    border :1px solid #dbdbdb;
+    text-align: center;
+    background-color: #fafafa;
+    border-radius: 5px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #aaacaf;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #aaacaf;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #aaacaf;
+  }
+
