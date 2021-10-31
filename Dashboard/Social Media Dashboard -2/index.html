@@ -1,30 +1,52 @@
 <!DOCTYPE html>
+
 <head>
     <meta charset="UTF-8">
     <title>Social Media Dashboard</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="32x32" href="resources/images/favicon-32x32.png">
     <link rel="stylesheet" href="resources/css/style.css" id="theme-link">
 </head>
+
 <body class="dark-theme || light-theme">
     <header class="dark-theme || light-theme">
         <div class="header-wrapper">
-          <div class="title-followers">
-            <h1>Social Media Dashboard</h1>
-            <h3>Total Followers: 2,00,000</h3>
-          </div>
-          <hr>
-          <div class="color-toggle">
-            <p class="toggle">Dark Mode</p>
-            <label class="switch">
-              <input id="toggle" class="dark-mode" type="checkbox" unchecked>
-              <span class="slider round"></span>
-            </label>
-          </div>
+            <div class="title-followers">
+                <h1>Social Media Dashboard</h1>
+                <h3>Total Followers: 2,00,000</h3>
+            </div>
+            <hr>
+            <div class="color-toggle">
+                <p class="toggle">Dark Mode</p>
+                <label class="switch">
+                    <input id="toggle" class="dark-mode" type="checkbox" unchecked>
+                    <span class="slider round"></span>
+                </label>
+            </div>
         </div>
-      </header>
+    </header>
+
+    <div class="kpi-wrapper">
+        <div class="kpi-card">
+            <div class="card-top-facebook"></div>
+            <div class="kpi-card-top">
+                <div class="icon"><img src="resources/images/icon-facebook.svg" alt="facebook"></div>
+                <div class="handle">
+                    <p>@GayanKod</p>
+                </div>
+            </div>
+            <div class="kpi">23K</div>
+            <div>
+                <h4 class="unit-of-measure">FOLLOWERS</h4>
+            </div>
+            <div>
+                <p class="delta up">&#9652; 110 Today</p>
+            </div>
+        </div>
+
 </body>
 
 </html>
