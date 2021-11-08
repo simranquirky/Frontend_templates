@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Social Media Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="resources/images/favicon-32x32.png">
+    <link rel="stylesheet" href="resources/css/style.css" id="theme-link">
+</head>
+
+<body class="dark-theme || light-theme">
+    <header class="dark-theme || light-theme">
+        <div class="header-wrapper">
+            <div class="title-followers">
+                <h1>Social Media Dashboard</h1>
+                <h3>Total Followers: 2,00,000</h3>
+            </div>
+            <hr>
+            <div class="color-toggle">
+                <p class="toggle">Dark Mode</p>
+                <label class="switch">
+                    <input id="toggle" class="dark-mode" type="checkbox" unchecked>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+    </header>
+
+    <div class="kpi-wrapper">
+        <div class="kpi-card">
+            <div class="card-top-facebook"></div>
+            <div class="kpi-card-top">
+                <div class="icon"><img src="resources/images/icon-facebook.svg" alt="facebook"></div>
+                <div class="handle">
+                    <p>@GayanKod</p>
+                </div>
+            </div>
+            <div class="kpi">23K</div>
+            <div>
+                <h4 class="unit-of-measure">FOLLOWERS</h4>
+            </div>
+            <div>
+                <p class="delta up">&#9652; 110 Today</p>
+            </div>
+        </div>
+        <div class="kpi-card">
+            <div class="card-top-twitter"></div>
+            <div class="kpi-card-top">
+              <div class="icon"><img src="resources/images/icon-twitter.svg" alt="twitter"></div>
+              <div class="handle"><p>@GayanKodX</p></div>
+            </div>
+            <div class="kpi">1.2K</div>
+            <div><h4 class="unit-of-measure">FOLLOWERS</h4></div>
+            <div><p class="delta up">&#9652; 73 Today</p></div>
+          </div>
+        <div class="kpi-card">
+            <div class="card-top-instagram"></div>
+            <div class="kpi-card-top">
+              <div class="icon"><img src="resources/images/icon-instagram.svg" alt="instagram"></div>
+              <div class="handle"><p>@GayanKod</p></div>
+            </div>
+            <div class="kpi">185k</div>
+            <div><h4 class="unit-of-measure">FOLLOWERS</h4></div>
+            <div><p class="delta up">&#9652; 600 Today</p></div>
+        </div>
+        <div class="kpi-card">
+          <div class="card-top-youtube"></div>
+          <div class="kpi-card-top">
+            <div class="icon"><img src="resources/images/icon-youtube.svg" alt="youtube"></div>
+            <div class="handle"><p>GayanKod</p></div>
+          </div>
+          <div class="kpi">10.5K</div>
+          <div><h4 class="unit-of-measure">SUBSCRIBERS</h4></div>
+          <div><p class="delta down">&#9662; 104 Today</p></div>
+        </div>
+    </div>
+
+    <div class="overview-header">
+        <h2>Overview - today</h2>
+      </div>
+      <div class="overview-kpis">
+        <div class="overview-wrapper">
+          <div class="kpi-small">
+            <div class="page-views">Page Views</div>
+            <div class="logo"><img src="resources/images/icon-facebook.svg" alt="facebook"></div>
+            <div class="views">153</div>
+            <div class="movement up">&#9652; 7%</div>
+          </div>
+          <div class="kpi-small">
+            <div class="page-views">Likes</div>
+            <div class="logo"><img src="resources/images/icon-facebook.svg" alt="facebook"></div>
+            <div class="views">78</div>
+            <div class="movement down">&#9662; 5%</div>
+          </div>
+          <div class="kpi-small">
+            <div class="page-views">Likes</div>
+            <div class="logo"><img src="resources/images/icon-instagram.svg" alt="instagram"></div>
+            <div class="views">7894</div>
+            <div class="movement up">&#9652; 4311%</div>
+          </div>
+          <div class="kpi-small">
+            <div class="page-views">Profile Views</div>
+            <div class="logo"><img src="resources/images/icon-instagram.svg" alt="instagram"></div>
+            <div class="views">76K</div>
+            <div class="movement up">&#9652; 3751%</div>
+          </div>
+          <div class="kpi-small">
+            <div class="page-views">Retweets</div>
+            <div class="logo"><img src="resources/images/icon-twitter.svg" alt="twitter"></div>
+            <div class="views">95</div>
+            <div class="movement up">&#9652; 124%</div>
+          </div>
+          <div class="kpi-small">
+            <div class="page-views">Likes</div>
+            <div class="logo"><img src="resources/images/icon-twitter.svg" alt="twitter"></div>
+            <div class="views">788</div>
+            <div class="movement up">&#9652; 233%</div>
+          </div>
+          <div class="kpi-small">
+            <div class="page-views">Likes</div>
+            <div class="logo"><img src="resources/images/icon-youtube.svg" alt="youtube"></div>
+            <div class="views">2172</div>
+            <div class="movement down">&#9662; 49%</div>
+          </div>
+          <div class="kpi-small">
+            <div class="page-views">Total Views</div>
+            <div class="logo"><img src="resources/images/icon-youtube.svg" alt="youtube"></div>
+            <div class="views">450</div>
+            <div class="movement down">&#9662; 62%</div>
+          </div>
+        </div>
+      </div>
+</body>
+
+<script src="resources/js/darkmodetoggle.js"></script> 
+
+</html>
