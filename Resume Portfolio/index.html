@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==================== ICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="icon" href="assets/img/mypic.png">
+
+    <title>Kartik's Portfolio</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                Kartik Sharma
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i>Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i>About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i>Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#qualifications" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i>Qualifications
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i>Portfolio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i>Contact Me
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/kartik-sharma-837413220/" target="_blank"
+                            class="home__social-icon">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+
+                        <a href="https://github.com/dartpixel" target="_blank" class="home__social-icon">
+                            <i class="uil uil-github"></i>
+                        </a>
+
+                        <a href="mailto:skartiksharma2004@gmail.com" target="_blank" class="home__social-icon">
+                            <i class="uil uil-envelope"></i>
+                        </a>
+
+                    </div>
+                    <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+
+                                <image class="home__blob-img" x='5' y='20' xlink:href="assets/img/profile.png"
+                                    alt="Image Coming Soon" />
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            Hi, I'm Kartik!
+                        </h1>
+                        <h3 class="home__subtitle">
+                            Developer
+                        </h3>
+                        <p class="home__description">
+                            An Aspiring Software Engineer with a passion for solving problems.
+                        </p>
+                        <a href="#contact" class="button button--flex">
+                            Contact Me <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name">
+                            Scroll down
+                        </span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <h2 class="section__title">
+                About Me
+            </h2>
+            <span class="section__subtitle">
+                My Introduction
+            </span>
+
+            <div class="about__container container grid">
+                <img src="assets/img/mypic.jpg" alt="My Picture" class="about__img">
+                <div class="about__data">
+                    <p class="about__description">
+                        I am a second year B.Tech Computer Science and Engineering student. <br>
+                        I have a keen interest in solving real-life problems by applying cutting-edge technology and
+                        skills.
+                        I am enthusiastic and eager to contribute to team success through hard work, attention to
+                        detail, and excellent organizational and presentation skills.
+                    </p>
+                    <div class="about__buttons">
+                        <a download="" href="assets/pdf/Kartik Sharma's Resume.pdf" class="button button--flex">
+                            Download CV
+                            <i class="uil uil-file-download-alt button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">
+                Skills
+            </h2>
+            <span class="section__subtitle">
+                My Technical Abilities
+            </span>
+            <div class="skills__container container grid">
+                <div>
+                    <!--==================== SKILLS 1 ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title">
+                                    Programming Languages
+                                </h1>
+                            </div>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <div class="skills__list grid">
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        C
+                                    </h3>
+                                    <span class="skills__logo">
+                                        <img src="https://github.com/devicons/devicon/raw/master/icons/c/c-original.svg"
+                                            alt="">
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        C++
+                                    </h3>
+                                    <span class="skills__logo">
+                                        <img src="https://github.com/devicons/devicon/raw/master/icons/cplusplus/cplusplus-original.svg"
+                                            alt="">
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        Java
+                                    </h3>
+                                    <span class="skills__logo">
+                                        <img src="https://github.com/devicons/devicon/raw/master/icons/java/java-original.svg"
+                                            alt="">
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        Python
+                                    </h3>
+                                    <span class="skills__logo">
+                                        <img src="assets/img/python.png" alt="">
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        JavaScript
+                                    </h3>
+                                    <span class="skills__logo">
+                                        <img src="assets/img/js.png" alt="">
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        Scala
+                                    </h3>
+                                    <span class="skills__logo">
+                                        <img src="https://github.com/devicons/devicon/raw/master/icons/scala/scala-original.svg"
+                                            alt="">
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        Julia
+                                    </h3>
+                                    <span class="skills__logo">
+                                        <img src="https://github.com/devicons/devicon/raw/master/icons/julia/julia-original.svg"
+                                            alt="">
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!--==================== SKILLS 2 ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-server-network-alt skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title">
+                                    Machine Learning Tools
+                                </h1>
+                            </div>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <div class="skills__list grid">
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        TensorFlow
+                                    </h3>
+                                    <span class="skills__logo">
+                                        <img src="https://github.com/devicons/devicon/raw/master/icons/tensorflow/tensorflow-original.svg"
+                                            alt="">
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        Scikit Learn
+                                    </h3>
+                                    <span class="skills__logo">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1200px-Scikit_learn_logo_small.svg.png"
+                                            alt="">
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        Pandas
+                                    </h3>
+                                    <span class="skills__logo">
+                                        <img src="https://github.com/devicons/devicon/raw/master/icons/pandas/pandas-original.svg"
+                                            alt="">
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        Numpy
+                                    </h3>
+                                    <span class="skills__logo">
+                                        <img src="https://github.com/devicons/devicon/raw/master/icons/numpy/numpy-original.svg"
+                                            alt="">
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        Power BI
+                                    </h3>
+                                    <span class="skills__logo">
+                                        <img src="https://cdn.corporatefinanceinstitute.com/assets/power-bi.png" alt="">
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--==================== SKILLS 5 ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-apps skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title">
+                                    Other Tools
+                                </h1>
+                            </div>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <div class="skills__list grid">
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        Docker
+                                    </h3>
+                                    <span class="skills__logo">
+                                        <img src="https://github.com/devicons/devicon/raw/master/icons/docker/docker-original.svg"
+                                            alt="">
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        FastAPI
+                                    </h3>
+                                    <span class="skills__logo">
+                                        <img src="https://cdn.worldvectorlogo.com/logos/fastapi.svg" alt="">
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        Streamlit
+                                    </h3>
+                                    <span class="skills__logo">
+                                        <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/z3ahdkytzwi1jxlpazje"
+                                            alt="">
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        Heroku
+                                    </h3>
+                                    <span class="skills__logo">
+                                        <img src="https://github.com/devicons/devicon/raw/master/icons/heroku/heroku-original.svg"
+                                            alt="">
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        Git
+                                    </h3>
+                                    <span class="skills__logo">
+                                        <img src="https://github.com/devicons/devicon/raw/master/icons/git/git-original.svg"
+                                            alt="">
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        Azure
+                                    </h3>
+                                    <span class="skills__logo">
+                                        <img src="https://github.com/devicons/devicon/raw/master/icons/azure/azure-original.svg"
+                                            alt="">
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        AWS
+                                    </h3>
+                                    <span class="skills__logo">
+                                        <img src="https://github.com/devicons/devicon/raw/master/icons/amazonwebservices/amazonwebservices-original.svg"
+                                            alt="">
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        Google Cloud
+                                    </h3>
+                                    <span class="skills__logo">
+                                        <img src="https://github.com/devicons/devicon/raw/master/icons/googlecloud/googlecloud-original.svg"
+                                            alt="">
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <!--==================== SKILLS 3 ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-swatchbook skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title">
+                                    Databases
+                                </h1>
+                            </div>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <div class="skills__list grid">
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        MySQL
+                                    </h3>
+                                    <span class="skills__logo">
+                                        <img src="https://github.com/devicons/devicon/raw/master/icons/mysql/mysql-original.svg"
+                                            alt="">
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        MongoDB
+                                    </h3>
+                                    <span class="skills__logo">
+                                        <img src="https://github.com/devicons/devicon/raw/master/icons/mongodb/mongodb-original.svg"
+                                            alt="">
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!--==================== SKILLS 4 ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-scenery skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title">
+                                    Web Development Tools
+                                </h1>
+                            </div>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <div class="skills__list grid">
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        HTML
+                                    </h3>
+                                    <span class="skills__logo">
+                                        <img src="assets/img/html.png" alt="">
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        CSS
+                                    </h3>
+                                    <span class="skills__logo">
+                                        <img src="assets/img/css.png" alt="">
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        JavaScript
+                                    </h3>
+                                    <span class="skills__logo">
+                                        <img src="assets/img/js.png" alt="">
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        BootStrap
+                                    </h3>
+                                    <span class="skills__logo">
+                                        <img src="https://github.com/devicons/devicon/raw/master/icons/bootstrap/bootstrap-original.svg"
+                                            alt="">
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        Flask
+                                    </h3>
+                                    <span class="skills__logo">
+                                        <img src="https://github.com/devicons/devicon/raw/master/icons/flask/flask-original.svg"
+                                            alt="">
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        Node.js
+                                    </h3>
+                                    <span class="skills__logo">
+                                        <img src="assets/img/nodejs.png" alt="">
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">
+                                        PHP
+                                    </h3>
+                                    <span class="skills__logo">
+                                        <img src="https://github.com/devicons/devicon/raw/master/icons/php/php-original.svg"
+                                            alt="">
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+
+            </div>
+        </section>
+
+        <!--==================== QUALIFICATION ====================-->
+        <section class="qualification section" id="qualifications">
+            <h2 class="section__title">Qualifications</h2>
+            <span class="section__subtitle"></span>
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex qualification__active" data-target="#education">
+                        <i class="uil uil-graduation-cap qualification__icon"></i>
+                        Education
+                    </div>
+
+                    <div class="qualification__button button--flex" data-target="#work">
+                        <i class="uil uil-briefcase-alt qualification__icon"></i>
+                        Work
+                    </div>
+                </div>
+
+                <div class="qualification__sections">
+                    <!--==================== QUALIFICATION CONTENT 1====================-->
+                    <div class="qualification__content qualification__active" data-content id="education">
+                        <!--==================== QUALIFICATION 1 ====================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">
+                                    B.Tech in Computer Science & Engineering
+                                </h3>
+                                <span class="qualification__subtitle">
+                                    Graphic Era University, Dehradun
+                                </span>
+                                <div class="qualification__calender">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2021-2025
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+
+                            </div>
+                        </div>
+
+                        <!--==================== QUALIFICATION 2 ====================-->
+                        <div class="qualification__data">
+                            <div>
+
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">
+                                    XII C.B.S.E
+                                </h3>
+                                <span class="qualification__subtitle">
+                                    Greenwood Public School, Gurugram
+                                </span>
+                                <div class="qualification__calender">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2021
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== QUALIFICATION 3 ====================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">
+                                    X C.B.S.E
+                                </h3>
+                                <span class="qualification__subtitle">
+                                    Greenwood Public School, Meerut
+                                </span>
+                                <div class="qualification__calender">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2019
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!--==================== CONTACT ME ====================-->
+                    <section class="contact section" id="contact">
+                        <h2 class="section__title">
+                            Contact Me
+                        </h2>
+                        <span class="section__subtitle">
+                            Get in touch
+                        </span>
+
+                        <div class="contact__container container grid">
+                            <div>
+                                <div class="contact__information">
+                                    <i class="uil uil-envelope contact__icon"></i>
+
+                                    <div>
+                                        <h3 class="contact__title">
+                                            Email
+                                        </h3>
+                                        <span class="contact__subtitle">
+                                            skartiksharma2004@gmail.com
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="contact__information">
+                                    <i class="uil uil-map-marker contact__icon"></i>
+
+                                    <div>
+                                        <h3 class="contact__title">
+                                            Location
+                                        </h3>
+                                        <span class="contact__subtitle">
+                                            Gurugram, India
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <form action="" class="contact__form grid">
+                                <div class="contact__inputs grid">
+                                    <div class="contact__content">
+                                        <label for="" class="contact__label">Name</label>
+                                        <input type="text" class="contact__input">
+                                    </div>
+                                    <div class="contact__content">
+                                        <label for="" class="contact__label">Email</label>
+                                        <input type="email" class="contact__input">
+                                    </div>
+                                </div>
+                                <div class="contact__content">
+                                    <label for="" class="contact__label">Project</label>
+                                    <input type="text" class="contact__input">
+                                </div>
+                                <div class="contact__content">
+                                    <label for="" class="contact__label">Message</label>
+                                    <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                                </div>
+
+                                <div>
+                                    <a href="" class="button button--flex">
+                                        Send Message
+                                        <i class="uil uil-message button__icon"></i>
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
+                    </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Kartik Sharma</p>
+        <div class="footer__social">
+            <a href="https://www.linkedin.com/in/kanakmi/" class="footer__icon"><i
+                    class='uil uil-linkedin button__icon'></i></a>
+            <a href="https://www.instagram.com/01_kartiksharma/" class="footer__icon"><i
+                    class='uil uil-instagram-alt button__icon'></i></a>
+            <a href="https://github.com/dartpixel" class="footer__icon"><i
+                    class='uil uil-github-alt button__icon'></i></a>
+            <a href="mailto:skartiksharma2004@gmail.com" class="footer__icon"><i
+                    class='uil uil-envelope button__icon'></i></a>
+        </div>
+        <p class="footer__copy">
+            &#169; Kartik Sharma. All rights reserved.
+        </p>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
