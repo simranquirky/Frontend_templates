@@ -1,0 +1,138 @@
+.searchResult {
+    display: grid;
+    grid-template-columns: 23% 77%;
+    width: auto;
+    margin: 20px;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+    height: 25vh;
+    max-height: 200px;
+}
+
+.hotel-image{
+    object-fit: contain;
+    height: 25vh;
+    max-height: 200px;
+}
+
+.hotel-image img{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.searchResult:hover {
+    opacity: 0.8;
+}
+
+.searchResult__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.searchResult__heart {
+    margin-right: 0px;
+}
+
+.searchResult__infoTop {
+    width: auto;
+}
+
+.searchResult__infoTop > h3 {
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.searchResult__infoTop > p {
+    margin-top: 8px;
+    font-size: 13px;
+    color: gray;
+}
+
+.locationDiv{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5px;
+}
+
+.searchResult__infoBottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.searchResult__star {
+    color: red;
+}
+
+
+.searchResult__stars {
+    display: flex;
+    align-items: center;
+}
+
+.searchResults__price{
+    margin-top: 10px;
+}
+
+.searchResults__price h2{
+    font-size: 20px;
+}
+.searchResults__price p{
+    font-size: 16px;
+    text-align: right;
+}
+
+@media screen and (max-width: 1300px){
+    .searchResult {
+        grid-template-columns: 27% 70%;
+    }
+}
+@media screen and (max-width: 1000px){
+    .searchResult {
+        grid-template-columns: 35% 65%;
+    }
+}
+@media screen and (max-width: 800px){
+    .searchResults__price h2{
+        font-size: 18px;
+    }
+    .searchResults__price p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 700px){
+    .searchResult {
+        grid-template-columns: 40% 60%;
+    }
+}
+@media screen and (max-width: 450px){
+    .searchResult {
+        height: 28vh;
+        grid-template-columns: 45% 60%;
+    }
+    .searchResults__price h2{
+        font-size: 15px;
+    }
+    .searchResults__price p{
+        font-size: 10px;
+    }
+    .hotel-image{
+        height: 28vh
+    }
+}
+@media screen and (max-height: 700px){
+    .searchResult {
+        height: 30vh;
+        max-height: 350px;
+    }
+    
+    .hotel-image{
+        height: 30vh;
+        max-height: 350px;
+    }
+}

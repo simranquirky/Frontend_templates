@@ -1,0 +1,128 @@
+.banner {
+    /* background: url("../src/banner.jpg") center center;
+    height: 500px;
+    position: relative; */
+    background: rgba(0, 0, 0, 0.3) url("../src/banner.jpg");
+    height: auto;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    /* margin-bottom: 30px; */
+    padding-bottom: 40px;
+  }
+  
+  .banner__info {
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0, 0.25); 
+    color: white;
+    padding: 13vh 50px 30px 50px;
+    width: 35%;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-wrap: break-word;  
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .banner__search {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .banner__searchButton {
+    /* background-color: rgb(253, 253, 253) !important; */
+    font-weight: 600 !important;
+    text-transform: inherit !important;
+    /* color: #ff7779 !important; */
+    background-color: #ff7779;
+    color: white;
+    margin-right: -10px;
+  }
+
+  .banner__searchButton1{
+    top: 0%;
+    background-color: #ff7779;
+    color: white;
+  }
+
+  .banner__searchButton:hover {
+    background-color: white;
+    color: #ff7779;
+  }
+  
+  .banner__info > button {
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit;
+    justify-content: space-around;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-right: 10px;
+    border-radius: 20px;
+  }
+  
+    .banner__info > button:hover {
+      background-color: white;
+      color: #ff7779;
+    }
+    
+    .banner__info > h5 {
+      margin-top: 12px;
+      font-size: 15px;
+      align-items: center;
+      text-align: center;
+      font-weight: 400;
+      letter-spacing: 0.75px;
+  }
+
+  .banner__info > h1{
+    margin-top: -62px;
+    text-align: center;
+    text-shadow: 3px 2px #000;
+    font-size: 40px;
+  }
+
+  @media (max-width: 850px){
+    .banner__info{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .banner__info h1{
+      font-size: 28px;
+    }
+  }
+
+  @media (max-width: 750px){
+    .banner__info{
+      width: 40%;
+      padding: 14vh 30px 30px 30px; 
+    }
+    .banner__info > button{
+      margin-top: 20px;
+      font-size: 10px;
+    }
+  }
+
+  @media (max-width: 520px){
+    .banner__info{
+      width: 45%;
+      padding: 14vh 30px 30px 30px; 
+    }
+  }
+
+  @media (max-width: 480px){
+    .banner{
+      width: 100%;
+      
+    }
+    .banner__info{
+      padding: 14vh 30px 30px 30px;
+      width: 50%;
+     
+    }
+    
+  }

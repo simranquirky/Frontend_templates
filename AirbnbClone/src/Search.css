@@ -1,0 +1,102 @@
+.search {
+    position: absolute;
+    top: 104px;
+    left: 90%;
+    transform: translate(-90%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.Dates{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.people-count{
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 50%;
+    align-self: center;
+}
+
+/*.people-count > h2 {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+}*/
+
+.number > span {
+    color: black;
+    font-size: 1.1rem;
+}
+
+.peopleIcon{
+    color: black;
+}
+
+.number{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.submit{
+    background: black;
+}
+
+.submit > input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+}
+
+
+.submit > button {
+    text-transform: inherit !important;
+    background-color: #ff7779;
+    color: white;
+    width: 40%;
+    margin-right: 10px;
+}
+
+.submit > button:hover {
+    background-color: white;
+   color: #ff7779;
+}
+
+@media screen and (max-width: 700px){
+    .Range{
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .search{
+        left: 100%;
+        transform: translate(-100%);
+    }
+    .people-count{
+        align-self: flex-end;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .search{
+        transform: translate(-80%);
+    }
+}
+
+@media screen and (max-width: 400px){
+    .search{
+        transform: translate(-65%);
+    }
+}
