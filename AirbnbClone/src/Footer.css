@@ -1,0 +1,163 @@
+
+p.copyright {
+    color: #fff;
+    line-height: 40px;
+    font-size: 0.7em;
+}
+
+
+
+
+:root {
+    --footer-bg: #1c2444;
+    --color: white;
+    --color-smooth: #9da2ae;
+    --input-border: #3a456a;
+    --btn-bg-color: #ff7779;
+    --btn-hover-bg: white;
+    --btn-color: #f8f9fc;
+    
+  }
+  
+  footer {
+    width: auto;
+    font-size: 16px;
+    background: var(--footer-bg);
+    padding: 2em 4em;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  }
+  
+  footer ul {
+    list-style: none;
+  }
+  
+  .col {
+    flex: 1;
+    text-align: center;
+    padding: 0 20px 10px 20px;
+  }
+  
+  .col-title {
+    color: var(--color);
+    font-size: 1.5em;
+    font-weight: 500;
+    padding: 0.8em 0;
+  }
+
+  .col-list ul{
+    padding: 0px;
+  }
+  
+  .col-list a {
+    color: var(--color-smooth);
+    text-decoration: none;
+    line-height: 2;
+    font-weight: 400;
+  }
+  
+  .col-list a:hover,
+  .col-list a:focus {
+    text-decoration: underline;
+  }
+  
+  .subscribe-form{
+      padding-top: 1em;
+  }
+
+  .subscribe-form,
+  .social-media {
+    display: flex;
+    gap: 0.5em;
+    padding: 0.5em 0;
+    text-align: center;
+  }
+  
+  .subscribe-input {
+    width: auto;
+    flex: 1;
+    background: transparent;
+    border: 0.06em solid var(--input-border);
+    font-size: 1em;
+    font-weight: 500;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    transition: all 0.25s ease 0s;
+    display: inline-block;
+    color: var(--color-smooth);
+  }
+  
+  .subscribe-input:focus {
+    outline: none;
+    border-color: var(--color);
+    color: var(--color);
+  }
+  
+  .subscribe-btn {
+    background: var(--btn-bg-color);
+    border: none;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    transition: all 0.25s ease 0s;
+    display: inline-block;
+    color: var(--btn-color);
+    cursor: pointer;
+  }
+  
+  .subscribe-btn:hover,
+  .subscribe-btn:focus {
+    background: var(--btn-hover-bg);
+    color: #ff7779;
+  }
+  
+  .form-title{
+      padding-top: 1.5rem;
+  }
+
+  .form-title,
+  .social-col-title {
+    font-size: 1em;
+    color: var(--color);
+    font-weight: 500;
+    
+  }
+  
+  .social-media {
+    flex-direction: column;
+  }
+  
+  .social-media-list {
+    display: flex;
+    gap: 0.5rem;
+    padding-left: 0%;
+    justify-content: center;
+  }
+  
+  .social-media-list a {
+    padding: 0.5em;
+    color: var(--color-smooth);
+    display: flex;
+    border-radius: 0.3em;
+    transition: all 0.25s ease 0s;
+  }
+  
+  .social-media-list a:hover,
+  .social-media-list a:focus {
+    color: var(--color);
+    background:#ff7779;
+  }
+  
+  .social-media-list svg {
+    width: 1.5em;
+    height: 1.5em;
+    transition: all 0.25s ease 0s;
+  }
+  

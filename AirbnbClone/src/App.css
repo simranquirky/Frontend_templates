@@ -1,0 +1,13 @@
+* {
+    margin: 0%;
+}
+
+.app{
+    width: auto;
+}
+
+@media (max-width: 650px){
+    .app{
+      width: fit-content;
+    }
+  }

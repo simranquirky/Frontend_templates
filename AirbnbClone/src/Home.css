@@ -1,0 +1,108 @@
+.home__section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+  }
+
+#welcome_title{
+  color: #ff7779;
+  background-color: #f0f0f0;
+  padding-top: 40px;
+}
+
+#welcome{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  padding-left: 13%;
+  padding-right: 13%;
+  background-color: #f0f0f0;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+#welcome_key{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 13%;
+  padding-right: 13%;
+  /* background-color: #e9e9e9; */
+  color: #ff7779;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.welcome_list{
+  /* display: flex;
+  justify-content: center;
+  text-align: center; */
+  font-size: 19px;
+  line-height: 28px;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 50px;
+}
+
+#service_header{
+  color: #ff7779;
+  padding-bottom: 30px;
+}
+
+h4{
+  margin-left: 2%;
+  margin-right: 10%;
+  width: 30%;
+  font-weight:normal;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+}
+
+h4 span{
+  font-size: 22px;
+  font-weight: 600;
+}
+
+button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 400;
+  background-color: #ff7779;
+  color: white;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border: #ff7779 solid 2px;
+  border-radius: 25px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: white;
+  color: #ff7779;
+  border: #ff7779 solid 2px;
+}
+
+/* For Mobile Phones Portrait or Landscape View
+@media screen and (max-device-width: 640px) {
+  .home__section {
+    display: flex;
+    flex-direction: column;
+   flex: 6;
+  }
+
+}*/
