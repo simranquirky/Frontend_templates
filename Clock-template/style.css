@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#clockContainer {
+    position: relative;
+    margin-top: 69px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40vw;
+    width: 40vw;
+    border-radius: 50%;
+    background-image: url("clock.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: 0 8px 40px -4px rgb(91, 173, 200);
+    transition: 0.5s;
+}
+
+#clockContainer:hover{
+    box-shadow: 0 8px 60px -4px rgb(57, 195, 241);
+}
+
+
+#hour, #minute, #second {
+    position: absolute;
+    background: darkgreen;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour {
+    width: 2%;
+    height: 20%;
+    top: 32%;
+    left: 48.2%;
+    opacity: 0.8;
+}
+
+#minute {
+    width: 2%;
+    height: 40%;
+    top: 12%;
+    left: 49.6%;
+    opacity: 0.8;
+}
+
+#second {
+    width: 1%;
+    height: 32%;
+    top: 19%;
+    left: 50%;
+    opacity: 0.8;
+}
+
+.analogclock{
+    display: flex;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 42%;
+    justify-content: center;
+    margin-right: 42%;
+    color: rgb(239, 121, 121);
+    font-size: 50px;
+    border: 0.1cm solid rgb(239, 121, 121);
+}
