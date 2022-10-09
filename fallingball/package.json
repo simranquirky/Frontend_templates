@@ -1,0 +1,12 @@
+{
+    "name": "fallingball",
+    "version": "1.0.0",
+    "description": "The ball is falling",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "upload": "git checkout master && git subtree split --prefix dist -b gh-pages && git push -f origin gh-pages:gh-pages && git branch -D gh-pages"
+    },
+    "author": "Jerrylum",
+    "license": "MIT"
+}
