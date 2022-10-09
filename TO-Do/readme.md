@@ -1,4 +1,4 @@
-## I have created a folder named TODO in which I have added my project named TODO notes using Javascript. Please review my project and merge it. Thank You.
+## TODO notes is a project based on javascript where user can write notes what to do and can see later. user can also delete the notes as well.
 
 
 
