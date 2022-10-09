@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>My Portfolio</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/> 
+    </head>
+    <body>
+        <!--navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark 
+        bg-primary">
+        
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Vaibhav Vipin</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#skills">My Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#works">My Work</a>
+                  </li> 
+                   <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Me</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+<main class="container mt-3">
+    <section  id ="hero"class="d-flex justify-content-sm-center justify-content-md-evenl align-items-center mx-auto flex-column-reverse gap-3 flex-md-row">
+<!--hero-->
+<div class="d-flex justify-content-sm-center align-items-center  flex-column justify-content-md-start align-items-md-start">
+    <h5>Hi there ! &#9995;</h5>
+    <h2>Myself Vaibhav Vipin</h2>
+    <p>A Computer Science student!</p>
+    <button class="btn btn-primary bnt-sm">My Cool Resume 😎</button>
+</div>
+<div class=" d-md-none w=-50 w-50"></div>
+    <img src="./Images/Vaibhav.png" width="200" height="200" alt="Vaibhav Vipin "class="w-5 h-5 rounded-circle shadow" >
+
+</div>
+<div class="d-none d-md-block w-25 h-25">
+
+</div>
+    </section>
+    <section id ="skills" class="mt-5 p-4">
+        <!--skills-->
+<h1 class="text-primary text-center">My Skill</h1>
+<div class="mt-4 d-flex justify-content-evenly">
+    <i class="fab fa-html5 fa-7x" style=color:#f4470b></i>
+    <i class="fab fa-css3 fa-7x text-primary"></i>
+    <i class="fab fa-bootstrap fa-7x" style=color:#730fef></i>
+</div>
+ <!--<div class="mt-4 d-md-none d-md-flex justify-content-evenly">
+    <i class="fab fa-html5 fa-3x" style=color:#f4470b></i>
+    <i class="fab fa-css3 fa-3x text-primary"></i>
+    <i class="fab fa-bootstrap fa-3x" style=color:#730fef></i>
+</div>-->
+    </section>
+    <section id='works' class='mt-5 bg-white p-4 rounded'>
+        <!--My Works-->
+        <h3 class='text-primary text-center'><b>My Work</b></h3>
+        <div class='d-flex flex-column flex-md-row justify-content-md-evenly gap-2'>
+        <div class="card mt-3 mb-2" >
+        <img src="./Images/work.avif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Portfolio website</h5>
+          <p class="card-text">Built an amazing responsive website.</p>
+          <a href="#" class="btn btn-dark">View source
+          <i class="fab fa-github"></i></a>
+        </div>
+        </div>
+        <div class="card mt-3 mb-2" >
+        <img src="./Images/work.avif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Portfolio website</h5>
+          <p class="card-text">Built an amazing responsive website.</p>
+          <a href="#" class="btn btn-dark">View source
+          <i class="fab fa-github"></i></a>
+        </div>
+        </div>
+        <div class="card mt-3 mb-2" >
+        <img src="./Images/work.avif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Portfolio website</h5>
+          <p class="card-text">Built an amazing responsive website.</p>
+          <a href="#" class="btn btn-dark">View source
+          <i class="fab fa-github"></i></a>
+        </div>
+        </div> 
+        </section>
+        <section id='contact' class='mt-4 py-4'>
+            <!--Contact me-->
+            <h3 class='text-primary text-center'><b>Contact Form</b></h3>
+          
+            <form>
+            <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address :</label>
+            <input type="email" required class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Type message :</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" required placeholder="Enter your message here" rows="3"></textarea>
+            </div>
+            <button type="submit" class='btn btn-primary'>Submit</button>
+            </form>
+            
+            </section>
+</main>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    </body>
+</html>
