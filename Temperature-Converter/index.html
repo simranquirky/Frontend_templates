@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css-file/file.css">
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <form class="contenor" onsubmit="main(); return false">
+        <div class="icon"><img src="./img/kissclipart-temperature-clipart-graphics-cards-video-adapter-df4f116fb1d1f393.png" alt="" id="ic"></div>
+        <label>convert temperature into celsius or fahrenheit</label>
+        <br>
+        <input type="number" id="val" name="temp">
+        <select name="op" id="op">
+            <option value="celsius">celsius</option>
+            <option value="fahrenheit">fahrenheit</option>
+        </select>
+        </br>
+        <input type="submit" id="sub" name="temp">
+        <h1 id='result'></h1>
+    </form>
+    <script src="./js-file/file.js"></script>
+</body>
+</html>
