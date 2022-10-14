@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+
+  font-family: 'Roboto Mono', monospace;
+}
+
+@media (max-wdith: 1080px) {
+  html{
+      font-size: 62.5%; /*10px*/
+  }
+}
+@media (max-width: 720px){
+  html{
+      font-size: 56.5%; /*9px*/
+  }
+}
+
+
+body{
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("assets/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100%;
+  width: 100%;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.5rem;
+  width: 30rem;
+  height: 10rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#cronometro{
+  font-size: 2.5rem;
+  color:aliceblue;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem 0 0 0;
+}
+
+.buttons > button {
+  padding: 0.4rem 1rem;
+  margin: 0.5rem;
+  background-color: #2E2E2E;
+  color:aliceblue;
+  font-size: 1rem;
+  cursor: pointer;
+
+  transition: all 0.5s;
+}
+
+.buttons > button:hover {
+  filter: brightness(1.2);
+}
