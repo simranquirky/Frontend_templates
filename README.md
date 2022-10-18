@@ -9,6 +9,9 @@
 - DASHBOARD
 - TECHNICAL SITE
 - SHOPPING SITE ,Etc.
+- WESITES CLONES
+- TODO APPS
+- WEATHER APPS
 
 ## Want to Contribute to this repository?
 🚀 **Contributions** of any kind is welcome!
