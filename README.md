@@ -1,4 +1,4 @@
-# ✨Frontend-templates
+# ✨Frontend-templates-Disha
 
 ## Types in which you can contribute
 - LOGIN PAGES
